@@ -1,4 +1,4 @@
-import { Instagram, Youtube } from "lucide-react"
+import { Instagram, Youtube, Music } from "lucide-react"
 import React from "react"
 
 export const contactInfo = {
@@ -17,5 +17,10 @@ export const socialMedia = [
     name: "Youtube",
     url: "https://www.youtube.com/@xiipalingteknik",
     icon: React.createElement(Youtube, { className: "h-5 w-5" }),
+  },
+  {
+    name: "Spotify",
+    url: "https://open.spotify.com/playlist/2wqxm2bf7AS4NpTBIO4DYn?si=ebff15eb8643440d",
+    icon: React.createElement(Music, { className: "h-5 w-5" }),
   },
 ]
