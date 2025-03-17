@@ -8,12 +8,12 @@ const ScrollToTopContext = createContext(null)
 export function ScrollToTopProvider({ children }: { children: ReactNode }) {
   return (
     <Suspense fallback={null}>
-      <ScrollToTop>{children}</ScrollToTop>
+      <ScrollToTopInner>{children}</ScrollToTopInner>
     </Suspense>
   )
 }
 
-function ScrollToTop({ children }: { children: ReactNode }) {
+function ScrollToTopInner({ children }: { children: ReactNode }) {
   const pathname = usePathname()
   const searchParams = useSearchParams()
   const [isFirstRender, setIsFirstRender] = useState(true)
