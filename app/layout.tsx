@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import { Suspense } from "react"
 import "./globals.css"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -28,21 +29,19 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body className={inter.className}>
-        <ScrollToTopProvider>
-          <div className="min-h-screen flex flex-col">
-            <Navbar />
-            <main className="flex-1 overflow-hidden">
-              <PageTransition>{children}</PageTransition>
-            </main>
-            <Footer />
-            <BackToTop />
-          </div>
-        </ScrollToTopProvider>
+        <Suspense fallback={null}>
+          <ScrollToTopProvider>
+            <div className="min-h-screen flex flex-col">
+              <Navbar />
+              <main className="flex-1 overflow-hidden">
+                <PageTransition>{children}</PageTransition>
+              </main>
+              <Footer />
+              <BackToTop />
+            </div>
+          </ScrollToTopProvider>
+        </Suspense>
       </body>
     </html>
   )
 }
-
-
-
-import './globals.css'
