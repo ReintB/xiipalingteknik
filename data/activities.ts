@@ -152,7 +152,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/ejaocaunik.jpg?height=300&width=500",
+    image: "/retret/ejaocaunik.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -161,7 +161,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/andreacel.jpg?height=300&width=500",
+    image: "/retret/andreacel.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -170,7 +170,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/mewing.jpg?height=300&width=500",
+    image: "/retret/mewing.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -179,7 +179,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/ebeng.jpg?height=300&width=500",
+    image: "/retret/ebeng.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -188,7 +188,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/ocha.jpg?height=300&width=500",
+    image: "/retret/ocha.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -197,7 +197,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/eger.jpg?height=300&width=500",
+    image: "/retret/eger.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -206,7 +206,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/kushatheo.jpg?height=300&width=500",
+    image: "/retret/kushatheo.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -215,7 +215,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/mantap.jpg?height=300&width=500",
+    image: "/retret/mantap.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -224,7 +224,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/jalan.jpg?height=300&width=500",
+    image: "/retret/jalan.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -233,7 +233,7 @@ export const activities = [
     date: "15/03/2023",
     category: "Retret",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
-    image: "/retret/janicerevi.jpg?height=300&width=500",
+    image: "/retret/janicerevi.JPG?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
