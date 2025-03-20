@@ -62,15 +62,15 @@ export default function MemoriesPage() {
       avatar: "/placeholder.svg?height=40&width=40&text=PH",
       role: "Wali Kelas",
       message:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare dignissim diam, nec mattis mauris. Phasellus sagittis efficitur sapien, eget volutpat leo tempus a. Donec finibus faucibus nisi, facilisis semper erat commodo vel. Curabitur rutrum ex sit amet pulvinar viverra. In tempus mattis lobortis.",
+        "Kalian hebat, kalian sangat-sangat mantap! Kalian sudah mempunyai bekal dari mulai kelas X, kelas XI, kalian semua hebat, Mantap!",
     },
     {
       id: 2,
-      name: "Bu Murnijati, M.Pd.",
+      name: "Pak Nicolas Dwiatmoko, S.T",
       avatar: "/placeholder.svg?height=40&width=40&text=BS",
-      role: "Guru Bahasa Inggris Lanjut",
+      role: "Guru Informatika",
       message:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare dignissim diam, nec mattis mauris. Phasellus sagittis efficitur sapien, eget volutpat leo tempus a. Donec finibus faucibus nisi, facilisis semper erat commodo vel. Curabitur rutrum ex sit amet pulvinar viverra. In tempus mattis lobortis.",
+        "Semoga sukses mau dimana pun kalian kuliah.",
     },
     {
       id: 3,
@@ -78,7 +78,7 @@ export default function MemoriesPage() {
       avatar: "/placeholder.svg?height=40&width=40&text=PD",
       role: "Guru Pendidikan Agama Katolik",
       message:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare dignissim diam, nec mattis mauris. Phasellus sagittis efficitur sapien, eget volutpat leo tempus a. Donec finibus faucibus nisi, facilisis semper erat commodo vel. Curabitur rutrum ex sit amet pulvinar viverra. In tempus mattis lobortis.",
+        "Tetap semangat, kompak, kamu satu sama lain harus bahagia dalam perjalanan menuju perguruan tinggi.",
     },
     {
       id: 4,
@@ -86,7 +86,23 @@ export default function MemoriesPage() {
       avatar: "/placeholder.svg?height=40&width=40&text=BR",
       role: "Guru Sejarah",
       message:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare dignissim diam, nec mattis mauris. Phasellus sagittis efficitur sapien, eget volutpat leo tempus a. Donec finibus faucibus nisi, facilisis semper erat commodo vel. Curabitur rutrum ex sit amet pulvinar viverra. In tempus mattis lobortis.",
+        "Selamat berkarir! Semangat untuk US-nya yang menjadi puncak di SMA Santa Maria, semoga perjuangan SNBP dan SNBT semoga menjadi milik kalian masing-masing.",
+    },
+    {
+      id: 5,
+      name: "Pak Bartolomeus Delfian Wicaksono, S.Pd.",
+      avatar: "/placeholder.svg?height=40&width=40&text=BR",
+      role: "Guru Fisika",
+      message:
+        "Hebat! Selalu percaya diri, optimis untuk meraih masa depan, jangan pernah menyerah selama tenaga kita masih ada.",
+    },
+    {
+      id: 6,
+      name: "Pak Ganjar Anoegrah, S.Pd.",
+      avatar: "/placeholder.svg?height=40&width=40&text=BR",
+      role: "Guru Bahasa Sunda",
+      message:
+        "Selalu tersenyum!",
     },
   ]
 
