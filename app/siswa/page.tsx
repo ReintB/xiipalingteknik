@@ -51,7 +51,7 @@ export default function SiswaPage() {
           <p className="text-muted-foreground">Tidak ada siswa yang ditemukan dengan nama "{searchQuery}"</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           {filteredStudents.map((student) => (
             <Card key={student.id} className="overflow-hidden">
               <div className="relative flex items-center justify-center w-full">
