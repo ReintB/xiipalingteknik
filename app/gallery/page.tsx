@@ -2,7 +2,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ImageIcon, Film, ImageIcon as ImageLucide } from "lucide-react"
 import { photos, videos } from "@/data/gallery"
 import { ImageViewer } from "@/components/image-viewer"
-import { VideoViewer } from "@/components/video-viewer"
 
 export default function GalleryPage() {
   return (
@@ -50,12 +49,12 @@ export default function GalleryPage() {
         <TabsContent value="videos">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {videos.map((video) => (
-              <VideoViewer
+              <video
                 key={video.id}
-                thumbnail={video.thumbnail || "/placeholder.svg"}
-                title={video.title}
-                videoSrc={video.src}
-                className="overflow-hidden rounded-lg"
+                src={video.src}
+                controls
+                preload="metadata"
+                className="w-full h-auto rounded-lg"
               />
             ))}
           </div>
