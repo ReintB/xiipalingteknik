@@ -28,7 +28,7 @@ export default function TimelinePreview() {
       description: "Mengikuti ujian sekolah untuk menyelesaikan tahun ajaran.",
     },
     {
-      date: "xx xx xxxx",
+      date: "15 Mei 2025",
       title: "Hari Kelulusan",
       description: "Merayakan kelulusan bersama teman-teman sekelas.",
     },
