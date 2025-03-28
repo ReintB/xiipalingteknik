@@ -17,9 +17,9 @@ export default function AchievementsPage() {
         </p>
       </div>
 
-      <Tabs defaultValue="academic" className="w-full max-w-4xl mx-auto">
+      <Tabs defaultValue="academic" className="w-full mx-auto">
         <TabsContent value="academic">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {allAchievements.map((achievement) => (
               <Card key={achievement.id} className="overflow-hidden">
                 <div className="aspect-video relative">
