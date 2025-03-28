@@ -108,9 +108,9 @@ export const events = [
     highlight: true,
   },
   {
-    date: "9 Mei 2025",
+    date: "15 Mei 2025",
     title: "Hari Kelulusan",
-    description: "Merayakan kelulusan bersama teman-teman sekelas.",
+    description: "Merayakan kelulusan bersama teman-teman.",
     highlight: true,
   },
 ]
