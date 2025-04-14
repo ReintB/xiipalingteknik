@@ -553,4 +553,9 @@ export const videos = [
     title: "Koe SOopo",
     src: "/video/eja/xiiVarrelKoeSopo.mp4",
   },
+  {
+    id: 86,
+    title: "Pingpong 14-04-25",
+    src: "/video/kelas/pingpong.mp4",
+  },
 ]
