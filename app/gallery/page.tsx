@@ -1,9 +1,39 @@
+"use client"
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ImageIcon, Film, ImageIcon as ImageLucide } from "lucide-react"
 import { photos, videos } from "@/data/gallery"
 import { ImageViewer } from "@/components/image-viewer"
+import { useRef, useEffect } from "react"
 
 export default function GalleryPage() {
+  // Create a ref to store all video elements
+  const videoRefs = useRef<HTMLVideoElement[]>([])
+
+  // Function to handle when a video starts playing
+  const handlePlay = (currentVideo: HTMLVideoElement) => {
+    // Pause all other videos and reset them to the beginning
+    videoRefs.current.forEach((video) => {
+      if (video !== currentVideo) {
+        if (!video.paused) {
+          video.pause()
+        }
+        // Reset video to the beginning (0 seconds)
+        video.currentTime = 0
+      }
+    })
+  }
+
+  // Reset video refs when component mounts or videos change
+  useEffect(() => {
+    videoRefs.current = videoRefs.current.slice(0, videos.length)
+
+    // Clean up function
+    return () => {
+      videoRefs.current = []
+    }
+  }, [videos.length])
+
   return (
     <div className="container py-12">
       <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
@@ -48,14 +78,18 @@ export default function GalleryPage() {
         </TabsContent>
         <TabsContent value="videos">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-            {videos.map((video) => (
-              <video
-                key={video.id}
-                src={video.src}
-                controls
-                preload="metadata"
-                className="w-full h-auto rounded-lg"
-              />
+            {videos.map((video, index) => (
+              <div key={video.id}>
+                <video
+                  ref={(el) => {
+                    if (el) videoRefs.current[index] = el
+                  }}
+                  src={video.src}
+                  controls
+                  preload="metadata"
+                  onPlay={(e) => handlePlay(e.currentTarget)}
+                />
+              </div>
             ))}
           </div>
         </TabsContent>
