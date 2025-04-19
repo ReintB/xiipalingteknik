@@ -12,7 +12,6 @@ export default function SiswaPage() {
   const [searchQuery, setSearchQuery] = useState("")
   const [filteredStudents, setFilteredStudents] = useState(students)
 
-
   useEffect(() => {
     if (!searchQuery.trim()) {
       setFilteredStudents(students)
@@ -53,7 +52,7 @@ export default function SiswaPage() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           {filteredStudents.map((student) => (
-            <Card key={student.id} className="overflow-hidden">
+            <Card key={student.id} className="overflow-hidden flex flex-col h-full">
               <div className="relative flex items-center justify-center w-full">
                 <ImageViewers
                   src={student.photo || "/placeholder.svg"}
@@ -63,24 +62,34 @@ export default function SiswaPage() {
                   className="aspect-square object-cover object-top w-full"
                 />
               </div>
-              <CardHeader className="p-4">
-                <CardTitle>{student.name}</CardTitle>
-                <CardDescription>{student.ttl}</CardDescription>
-              </CardHeader>
-              <CardContent className="p-4 pt-0">
-                <Tabs defaultValue="quote">
-                  <TabsList className="grid w-full grid-cols-2">
-                    <TabsTrigger value="quote">Quote</TabsTrigger>
-                    <TabsTrigger value="instagram">Instagram</TabsTrigger>
-                  </TabsList>
-                  <TabsContent value="quote" className="mt-4">
-                    <p className="text-sm italic text-muted-foreground">{student.quote}</p>
-                  </TabsContent>
-                  <TabsContent value="instagram" className="mt-4">
-                    <p className="text-sm text-muted-foreground">{student.instagram}</p>
-                  </TabsContent>
-                </Tabs>
-              </CardContent>
+              <div className="flex flex-col flex-1">
+                <CardHeader className="p-4 pb-2">
+                  <div className="min-h-[80px] flex flex-col justify-between">
+                    <CardTitle className="text-lg line-clamp-2">{student.name}</CardTitle>
+                    <CardDescription className="mt-2 text-xs">{student.ttl}</CardDescription>
+                  </div>
+                </CardHeader>
+                <CardContent className="p-4 pt-0 flex-1 flex flex-col">
+                  <Tabs defaultValue="quote" className="flex-1 flex flex-col">
+                    <TabsList className="grid w-full grid-cols-2">
+                      <TabsTrigger value="quote">Quote</TabsTrigger>
+                      <TabsTrigger value="instagram">Instagram</TabsTrigger>
+                    </TabsList>
+                    <div className="flex-1 flex flex-col">
+                      <TabsContent value="quote" className="mt-3 flex-1">
+                        <div className="bg-muted/30 p-3 rounded-md min-h-[100px] h-full">
+                          <p className="text-sm italic text-muted-foreground line-clamp-5">{student.quote}</p>
+                        </div>
+                      </TabsContent>
+                      <TabsContent value="instagram" className="mt-3 flex-1">
+                        <div className="bg-muted/30 p-3 rounded-md min-h-[100px] h-full">
+                          <p className="text-sm text-muted-foreground">{student.instagram}</p>
+                        </div>
+                      </TabsContent>
+                    </div>
+                  </Tabs>
+                </CardContent>
+              </div>
             </Card>
           ))}
         </div>
