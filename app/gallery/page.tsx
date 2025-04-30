@@ -42,7 +42,7 @@ export default function GalleryPage() {
         </div>
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Galeri</h1>
         <p className="max-w-[700px] text-muted-foreground md:text-xl">
-          Kumpulan foto dan video kegiatan kelas yang bisa diunduh dengan mudah.
+          Kumpulan foto dan video kegiatan kelas.
         </p>
       </div>
 
