@@ -115,6 +115,22 @@ export default function ContactPage() {
             ))}
           </div>
         </div>
+
+        <div className="pt-4">
+          <p className="font-medium mb-3">Playlist Kami</p>
+          <div className="w-full">
+          <iframe
+            style={{ borderRadius: "12px" }}
+            src="https://open.spotify.com/embed/playlist/2wqxm2bf7AS4NpTBIO4DYn?utm_source=generator&theme=0"
+            width="100%"
+            height="500"
+            frameBorder="0"
+            allowFullScreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          </div>
+        </div>
       </div>
     </div>
   );
