@@ -355,7 +355,7 @@ export const activities = [
   },
   {
     id: 40,
-    title: "Agama w/ Pak Gulo",
+    title: "Agama | Pak Gulo",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -364,7 +364,7 @@ export const activities = [
   },
   {
     id: 41,
-    title: "B. Indonesia w/ Bunda Agnes",
+    title: "B. Indonesia | Bunda Agnes",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -373,7 +373,7 @@ export const activities = [
   },
   {
     id: 42,
-    title: "B. Sunda w/ Pak Ganjar",
+    title: "B. Sunda | Pak Ganjar",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -382,7 +382,7 @@ export const activities = [
   },
   {
     id: 43,
-    title: "Ekonomi w/ Pak Bas",
+    title: "Ekonomi | Pak Bas",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -391,7 +391,7 @@ export const activities = [
   },
   {
     id: 44,
-    title: "Fisika w/ Pak Delfian",
+    title: "Fisika | Pak Delfian",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -400,7 +400,7 @@ export const activities = [
   },
   {
     id: 45,
-    title: "Informatika w/ Pak Nico",
+    title: "Informatika | Pak Nico",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -409,7 +409,7 @@ export const activities = [
   },
   {
     id: 46,
-    title: "Matematika Lanjut w/ Bu Entin",
+    title: "Matematika Lanjut | Bu Entin",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -418,7 +418,7 @@ export const activities = [
   },
   {
     id: 47,
-    title: "P. Pancasila w/ Pak Topo",
+    title: "P. Pancasila | Pak Topo",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -427,7 +427,7 @@ export const activities = [
   },
   {
     id: 48,
-    title: "PJOK w/ Sir Andi",
+    title: "PJOK | Sir Andi",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -436,7 +436,7 @@ export const activities = [
   },
   {
     id: 49,
-    title: "Sejarah w/ Pak Aswan",
+    title: "Sejarah | Pak Aswan",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
@@ -445,7 +445,7 @@ export const activities = [
   },
   {
     id: 50,
-    title: "TOEFL w/ Maam Murni",
+    title: "TOEFL | Maam Murni",
     date: "15/03/2023",
     category: "KBM Terakhir",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
