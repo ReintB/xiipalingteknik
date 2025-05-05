@@ -12,7 +12,7 @@ export const students = [
     name: "Andreas Anandeto Serafino D. P.",
     photo: "/siswa/02.JPG?height=300&width=300&text=Siswa+2",
     ttl: "Bandung, 11 November 2006",
-    instagram: "@andreasserfin",
+    instagram: "@andreasserfin_",
     quote: '"Yang punya saya jangan dilihat"',
   },
   {
@@ -36,7 +36,7 @@ export const students = [
     name: "Catherina Olivia",
     photo: "/siswa/05.JPG?height=300&width=300&text=Siswa+5",
     ttl: "Bandung, 21 Mei 2007",
-    instagram: "@cxthrn",
+    instagram: "@cxthrn_",
     quote: '"P beywan pabji"',
   },
   {
@@ -92,7 +92,7 @@ export const students = [
     name: "Geosefin Rosario P. O. M. S.",
     photo: "/siswa/12.JPG?height=300&width=300&text=Siswa+12",
     ttl: "Bogor, 10 Oktober 2007",
-    instagram: "geo.okt",
+    instagram: "@geo.okt",
     quote: '""Dont follow your dreams, follow my Instagram""',
   },
   {
@@ -100,7 +100,7 @@ export const students = [
     name: "Gregorius Vino Carmelo ",
     photo: "/siswa/13.JPG?height=300&width=300&text=Siswa+13",
     ttl: "Bandung, 4 Juli 2007",
-    instagram: "@@pulppino",
+    instagram: "@pulppino",
     quote: '"To be interesting, be interested"',
   },
   {
@@ -213,7 +213,7 @@ export const students = [
     name: "Sebastian Ari",
     photo: "/siswa/27.JPG?height=300&width=300&text=Siswa+27",
     ttl: "Bandung, 9 November 2007",
-    instagram: "@kzeroka_.",
+    instagram: "@kzeroka_",
     quote: '"Tujuan hidup ku adalah menjadi orang kaya bukan orang pintar "',
   },
   {

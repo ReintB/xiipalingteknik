@@ -83,7 +83,14 @@ export default function SiswaPage() {
                       </TabsContent>
                       <TabsContent value="instagram" className="mt-3 flex-1">
                         <div className="bg-muted/30 p-3 rounded-md min-h-[100px] h-full">
-                          <p className="text-sm text-muted-foreground">{student.instagram}</p>
+                        <a
+  href={`https://instagram.com/${student.instagram.replace(/^@/, '')}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-sm text-primary hover:underline"
+>
+  {student.instagram}
+</a>
                         </div>
                       </TabsContent>
                     </div>
