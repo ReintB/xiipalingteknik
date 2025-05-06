@@ -25,21 +25,29 @@ export default function Navbar() {
   }
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "Pengurus", path: "/pengurus" },
-    { name: "Siswa", path: "/siswa" },
-    { name: "Galeri", path: "/gallery",
+    { name: "Beranda", path: "/" },
+    {
+      name: "Tentang Kami",
+      dropdown: [
+        { name: "Pengurus", path: "/pengurus" },
+        { name: "Siswa", path: "/siswa" },
+      ]
     },
     {
       name: "Kegiatan",
-      path: "/activities",
       dropdown: [
         { name: "Timeline", path: "/timeline" },
         { name: "Kegiatan", path: "/activities" },
         { name: "Prestasi", path: "/achievements" },
-      ],
+      ]
     },
-    { name: "Memori", path: "/memories" },
+    {
+      name: "Galeri & Memori",
+      dropdown: [
+        { name: "Galeri", path: "/gallery" },
+        { name: "Memori", path: "/memories" },
+      ]
+    },
     { name: "Kontak", path: "/contact" },
   ]
 
