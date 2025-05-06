@@ -66,35 +66,23 @@ export default function Navbar() {
     closed: {
       x: "-100%",
       opacity: 0,
-      transition: {
-        duration: 0.3,
-        ease: "easeInOut",
-      },
+      transition: { duration: 0.3, ease: "easeInOut" },
     },
     open: {
       x: 0,
       opacity: 1,
-      transition: {
-        duration: 0.3,
-        ease: "easeInOut",
-      },
+      transition: { duration: 0.3, ease: "easeInOut" },
     },
   }
 
   const backdropVariants = {
     closed: {
       opacity: 0,
-      transition: {
-        duration: 0.3,
-        ease: "easeInOut",
-      },
+      transition: { duration: 0.3, ease: "easeInOut" },
     },
     open: {
       opacity: 1,
-      transition: {
-        duration: 0.3,
-        ease: "easeInOut",
-      },
+      transition: { duration: 0.3, ease: "easeInOut" },
     },
   }
 
@@ -103,10 +91,7 @@ export default function Navbar() {
     visible: (i: number) => ({
       opacity: 1,
       y: 0,
-      transition: {
-        delay: i * 0.1,
-        duration: 0.3,
-      },
+      transition: { delay: i * 0.1, duration: 0.3 },
     }),
   }
 
@@ -114,6 +99,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
+          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <Button variant="ghost" size="icon" onClick={() => setOpen(true)}>
               <Menu className="h-5 w-5" />
@@ -121,23 +107,22 @@ export default function Navbar() {
             </Button>
             <AnimatePresence>
               {open && (
-                <>
+                <motion.div
+                  className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm"
+                  initial="closed"
+                  animate="open"
+                  exit="closed"
+                  variants={backdropVariants}
+                >
                   <motion.div
-                    className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm"
+                    className="fixed inset-y-0 left-0 w-3/4 bg-background p-6 shadow-lg"
                     initial="closed"
                     animate="open"
                     exit="closed"
-                    variants={backdropVariants}
+                    variants={mobileMenuVariants}
                   >
-                    <motion.div
-                      className="fixed inset-y-0 left-0 w-3/4 bg-background p-6 shadow-lg"
-                      initial="closed"
-                      animate="open"
-                      exit="closed"
-                      variants={mobileMenuVariants}
-                    >
-                      <div className="flex items-center justify-between">
-                        <Link href="/">
+                    <div className="flex items-center justify-between">
+                      <Link href="/">
                         <button
                           onClick={() => {
                             window.scrollTo({ top: 0, behavior: "smooth" })
@@ -145,91 +130,83 @@ export default function Navbar() {
                           }}
                           className="font-bold text-xl cursor-pointer"
                         >
-                          
-                          <motion.span
-                            whileTap={{ scale: 0.95 }}
-                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                          >
+                          <motion.span whileTap={{ scale: 0.95 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                             XIIPALINGTEKNIK
                           </motion.span>
                         </button>
-                        </Link>
-                        <Button variant="ghost" size="icon" onClick={() => setOpen(false)}>
-                          <X className="h-5 w-5" />
-                          <span className="sr-only">Close mobile menu</span>
-                        </Button>
-                      </div>
-                      <nav className="mt-6 flex flex-col gap-4">
-                        {navItems.map((item, i) => (
-                          <motion.div
-                            key={item.path}
-                            className="flex flex-col gap-2"
-                            custom={i}
-                            initial="hidden"
-                            animate="visible"
-                            variants={navItemVariants}
-                          >
-                            {item.dropdown ? (
-                              <>
-                                <div
-                                  className={`text-sm font-medium ${isDropdownActive(item) ? "text-primary font-bold" : ""}`}
-                                >
-                                  {item.name}
-                                </div>
-                                <div className="pl-4 flex flex-col gap-3 border-l border-border">
-                                  {item.dropdown.map((dropdownItem) => (
-                                    <CustomLink
-                                      key={dropdownItem.path}
-                                      href={dropdownItem.path}
-                                      className={`text-sm ${isActive(dropdownItem.path) ? "text-primary font-bold" : "text-muted-foreground hover:text-foreground transition-colors"}`}
-                                      onClick={() => setOpen(false)}
-                                    >
-                                      {dropdownItem.name}
-                                    </CustomLink>
-                                  ))}
-                                </div>
-                              </>
-                            ) : (
-                              <CustomLink
-                                href={item.path}
-                                className={`text-sm font-medium ${isActive(item.path) ? "text-primary font-bold" : ""}`}
-                                onClick={() => setOpen(false)}
-                              >
+                      </Link>
+                      <Button variant="ghost" size="icon" onClick={() => setOpen(false)}>
+                        <X className="h-5 w-5" />
+                        <span className="sr-only">Close mobile menu</span>
+                      </Button>
+                    </div>
+                    <nav className="mt-6 flex flex-col gap-4">
+                      {navItems.map((item, i) => (
+                        <motion.div
+                          key={item.path || item.name}
+                          className="flex flex-col gap-2"
+                          custom={i}
+                          initial="hidden"
+                          animate="visible"
+                          variants={navItemVariants}
+                        >
+                          {item.dropdown ? (
+                            <>
+                              <div className={`text-sm font-medium ${isDropdownActive(item) ? "text-primary font-bold" : ""}`}>
                                 {item.name}
-                              </CustomLink>
-                            )}
-                          </motion.div>
-                        ))}
-                      </nav>
-                    </motion.div>
+                              </div>
+                              <div className="pl-4 flex flex-col gap-3 border-l border-border">
+                                {item.dropdown.map((dropdownItem) => (
+                                  <CustomLink
+                                    key={dropdownItem.path}
+                                    href={dropdownItem.path}
+                                    className={`text-sm ${isActive(dropdownItem.path) ? "text-primary font-bold" : "text-muted-foreground hover:text-foreground transition-colors"}`}
+                                    onClick={() => setOpen(false)}
+                                  >
+                                    {dropdownItem.name}
+                                  </CustomLink>
+                                ))}
+                              </div>
+                            </>
+                          ) : (
+                            <CustomLink
+                              href={item.path}
+                              className={`text-sm font-medium ${isActive(item.path) ? "text-primary font-bold" : ""}`}
+                              onClick={() => setOpen(false)}
+                            >
+                              {item.name}
+                            </CustomLink>
+                          )}
+                        </motion.div>
+                      ))}
+                    </nav>
                   </motion.div>
-                </>
+                </motion.div>
               )}
             </AnimatePresence>
           </div>
+
+          {/* Logo */}
           <Link href="/">
-          <button
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: "smooth" })
-            }}
-            className="flex items-center gap-2 cursor-pointer"
-          >
-            <motion.span
-              className="font-bold text-xl"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            <button
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: "smooth" })
+              }}
+              className="flex items-center gap-2 cursor-pointer"
             >
-              XIIPALINGTEKNIK
-            </motion.span>
-          </button>
+              <motion.span className="font-bold text-xl" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+                XIIPALINGTEKNIK
+              </motion.span>
+            </button>
           </Link>
         </div>
+
+        {/* Desktop Navigation */}
         <div className="flex items-center">
           <nav className="hidden md:flex gap-6 mr-6">
             {navItems.map((item, i) => (
               <motion.div
-                key={item.path}
+                key={item.path || item.name}
                 className="flex items-center h-16 relative group"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -239,9 +216,7 @@ export default function Navbar() {
                   <>
                     <div className="flex items-center h-full">
                       <motion.span
-                        className={`text-sm font-medium hover:text-primary flex items-center gap-1 cursor-pointer ${
-                          isDropdownActive(item) ? "text-primary font-bold" : ""
-                        }`}
+                        className={`text-sm font-medium hover:text-primary flex items-center gap-1 cursor-pointer ${isDropdownActive(item) ? "text-primary font-bold" : ""}`}
                         whileHover={{ scale: 1.05 }}
                         transition={{ type: "spring", stiffness: 400, damping: 10 }}
                       >
@@ -256,14 +231,9 @@ export default function Navbar() {
                             <div className="w-full cursor-pointer">
                               <CustomLink
                                 href={dropdownItem.path}
-                                className={`block py-2.5 px-2 rounded hover:bg-accent transition-colors ${
-                                  isActive(dropdownItem.path) ? "font-bold" : ""
-                                }`}
+                                className={`block py-2.5 px-2 rounded hover:bg-accent transition-colors ${isActive(dropdownItem.path) ? "font-bold" : ""}`}
                               >
-                                <motion.span
-                                  whileHover={{ x: 5 }}
-                                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                                >
+                                <motion.span whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                                   {dropdownItem.name}
                                 </motion.span>
                               </CustomLink>
@@ -279,10 +249,7 @@ export default function Navbar() {
                     href={item.path}
                     className={`text-sm font-medium hover:text-primary ${isActive(item.path) ? "text-primary font-bold" : ""}`}
                   >
-                    <motion.span
-                      whileHover={{ scale: 1.05 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                    >
+                    <motion.span whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                       {item.name}
                     </motion.span>
                   </CustomLink>
@@ -290,6 +257,8 @@ export default function Navbar() {
               </motion.div>
             ))}
           </nav>
+
+          {/* Theme Toggle */}
           <Button variant="ghost" size="icon" onClick={toggleTheme}>
             {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             <span className="sr-only">Toggle theme</span>
