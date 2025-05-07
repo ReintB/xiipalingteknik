@@ -1,4 +1,4 @@
-import { Bed, Tent, Church, NotebookPen, Award, Map } from "lucide-react"
+import { Bed, Tent, Church, NotebookPen, Award, Map, ShoppingBasket } from "lucide-react"
 import React from "react"
 
 export const activities = [
@@ -580,6 +580,51 @@ export const activities = [
   },
   {
     id: 65,
+    title: "Bazarkeun",
+    date: "15/03/2023",
+    category: "Bazar",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/bazar/bazar1.jpg?height=300&width=500",
+    icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
+  },
+  {
+    id: 66,
+    title: "Bazarkeun",
+    date: "15/03/2023",
+    category: "Bazar",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/bazar/bazar2.jpg?height=300&width=500",
+    icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
+  },
+  {
+    id: 67,
+    title: "Bazarkeun",
+    date: "15/03/2023",
+    category: "Bazar",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/bazar/bazar3.jpg?height=300&width=500",
+    icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
+  },
+  {
+    id: 68,
+    title: "Bazarkeun",
+    date: "15/03/2023",
+    category: "Bazar",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/bazar/bazar4.jpg?height=300&width=500",
+    icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
+  },
+  {
+    id: 69,
+    title: "Bazarkeun",
+    date: "15/03/2023",
+    category: "Bazar",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/bazar/bazar5.jpg?height=300&width=500",
+    icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
+  },
+  {
+    id: 70,
     title: "Touringkeunn",
     date: "15/03/2023",
     category: "Touring",
