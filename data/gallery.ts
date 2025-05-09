@@ -558,4 +558,19 @@ export const videos = [
     title: "Pingpong 14-04-25",
     src: "/video/kelas/pingpong.mp4",
   },
+  {
+    id: 87,
+    title: "Brazil 10-05-25",
+    src: "/video/ocha/brazil.mp4",
+  },
+  {
+    id: 88,
+    title: "Shincan 10-05-25",
+    src: "/video/ocha/shincan.mp4",
+  },
+  {
+    id: 89,
+    title: "Tirta 10-05-25",
+    src: "/video/ocha/tirta.mp4",
+  },
 ]
