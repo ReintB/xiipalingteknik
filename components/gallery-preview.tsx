@@ -31,9 +31,6 @@ export default function GalleryPreview() {
                   alt={`Foto kegiatan ${item}`}
                   className="aspect-video"
                 />
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/60 opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none">
-                  <p className="text-sm font-medium text-white">Kegiatan Kelas {item}</p>
-                </div>
               </div>
             </MotionWrapper>
           ))}

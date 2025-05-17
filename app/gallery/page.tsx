@@ -68,10 +68,6 @@ export default function GalleryPage() {
                   alt={photo.title}
                   className="aspect-video"
                 />
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/60 opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none">
-                  <p className="text-sm font-medium text-white">{photo.title}</p>
-                  <p className="text-xs text-white/70">{photo.date}</p>
-                </div>
               </div>
             ))}
           </div>

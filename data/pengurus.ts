@@ -3,7 +3,7 @@ export const classXI = [
   {
     position: "Wali Kelas",
     name: "Nicolas Dwiatmoko, S.T",
-    photo: "/placeholder.svg?height=200&width=200",
+    photo: "/guru/pakNico.png?height=200&width=200",
     description: "Wali kelas yang bertanggung jawab membimbing perkembangan siswa-siswi kelas XI.",
   },
   {
@@ -73,7 +73,7 @@ export const classXII = [
   {
     position: "Wali Kelas",
     name: "Sebastianus Sulistyanto, S.Pd.",
-    photo: "/placeholder.svg?height=200&width=200",
+    photo: "/guru/pakBas.png?height=200&width=200",
     description: "Wali kelas yang bertanggung jawab membimbing perkembangan siswa-siswi kelas XII.",
   },
   {

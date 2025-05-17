@@ -1,7 +1,7 @@
 export const heroImages = [
   {
     id: 1,
-    src: "/banner.png?height=600&width=800",
-    alt: "placeholder",
+    src: "/fotoBareng/kelas124.jpg?height=600&width=800",
+    alt: "Foto Hero Section",
   },
 ]

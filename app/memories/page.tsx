@@ -7,7 +7,7 @@ export default function MemoriesPage() {
   const studentMemories = [
     {
       id: 1,
-      name: "Lorem ipsum 1",
+      name: "Siswa 1",
       avatar: "/siswa/22.JPG?height=40&width=40&text=AR",
       role: "Siswa",
       message:
@@ -15,7 +15,7 @@ export default function MemoriesPage() {
     },
     {
       id: 2,
-      name: "Lorem ipsum 2",
+      name: "Siswa 2",
       avatar: "/siswa/22.JPG?height=40&width=40&text=SN",
       role: "Siswa",
       message:
@@ -23,7 +23,7 @@ export default function MemoriesPage() {
     },
     {
       id: 3,
-      name: "Lorem ipsum 3",
+      name: "Siswa 3",
       avatar: "/siswa/22.JPG?height=40&width=40&text=BS",
       role: "Siswa",
       message:
@@ -31,7 +31,7 @@ export default function MemoriesPage() {
     },
     {
       id: 4,
-      name: "Lorem ipsum 4",
+      name: "Siswa 4",
       avatar: "/siswa/22.JPG?height=40&width=40&text=DP",
       role: "Siswa",
       message:
@@ -39,7 +39,7 @@ export default function MemoriesPage() {
     },
     {
       id: 5,
-      name: "Lorem ipsum 5",
+      name: "Siswa 5",
       avatar: "/siswa/22.JPG?height=40&width=40&text=RH",
       role: "Siswa",
       message:
@@ -47,7 +47,7 @@ export default function MemoriesPage() {
     },
     {
       id: 6,
-      name: "Lorem ipsum 6",
+      name: "Siswa 6",
       avatar: "/siswa/22.JPG?height=40&width=40&text=DS",
       role: "Siswa",
       message:
@@ -59,7 +59,7 @@ export default function MemoriesPage() {
     {
       id: 1,
       name: "Pak Sebastianus Sulistyanto, S.Pd.",
-      avatar: "/placeholder.svg?height=40&width=40&text=PH",
+      avatar: "/guru/pakBas.png?",
       role: "Wali Kelas",
       message:
         "Kalian hebat, kalian sangat-sangat mantap! Kalian sudah mempunyai bekal dari mulai kelas X, kelas XI, kalian semua hebat, Mantap!",
@@ -67,7 +67,7 @@ export default function MemoriesPage() {
     {
       id: 2,
       name: "Pak Nicolas Dwiatmoko, S.T",
-      avatar: "/placeholder.svg?height=40&width=40&text=BS",
+      avatar: "/guru/pakNico.png?height=40&width=40&text=BS",
       role: "Guru Informatika",
       message:
         "Semoga sukses mau dimana pun kalian kuliah.",
@@ -75,7 +75,7 @@ export default function MemoriesPage() {
     {
       id: 3,
       name: "Pak Suprianus Gulo, S.Fil.",
-      avatar: "/placeholder.svg?height=40&width=40&text=PD",
+      avatar: "/guru/pakGulo.png?height=40&width=40&text=PD",
       role: "Guru Pendidikan Agama Katolik",
       message:
         "Tetap semangat, kompak, kamu satu sama lain harus bahagia dalam perjalanan menuju perguruan tinggi.",
@@ -83,7 +83,7 @@ export default function MemoriesPage() {
     {
       id: 4,
       name: "Pak Asep Wawan Setiawan, S.Pd.",
-      avatar: "/placeholder.svg?height=40&width=40&text=BR",
+      avatar: "/guru/pakAswan.png?height=40&width=40&text=BR",
       role: "Guru Sejarah",
       message:
         "Selamat berkarir! Semangat untuk US-nya yang menjadi puncak di SMA Santa Maria, semoga perjuangan SNBP dan SNBT semoga menjadi milik kalian masing-masing.",
@@ -91,7 +91,7 @@ export default function MemoriesPage() {
     {
       id: 5,
       name: "Pak Bartolomeus Delfian Wicaksono, S.Pd.",
-      avatar: "/placeholder.svg?height=40&width=40&text=BR",
+      avatar: "/guru/pakDelfian.png?height=40&width=40&text=BR",
       role: "Guru Fisika",
       message:
         "Hebat! Selalu percaya diri, optimis untuk meraih masa depan, jangan pernah menyerah selama tenaga kita masih ada.",
@@ -99,7 +99,7 @@ export default function MemoriesPage() {
     {
       id: 6,
       name: "Pak Ganjar Anoegrah, S.Pd.",
-      avatar: "/placeholder.svg?height=40&width=40&text=BR",
+      avatar: "/guru/pakGanjar.png?height=40&width=40&text=BR",
       role: "Guru Bahasa Sunda",
       message:
         "Selalu tersenyum!",
