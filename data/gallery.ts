@@ -573,4 +573,24 @@ export const videos = [
     title: "Tirta 10-05-25",
     src: "/video/ocha/tirta.mp4",
   },
+  {
+    id: 90,
+    title: "Carlo Semangat",
+    src: "/video/graduation/carlosemangat.mp4",
+  },
+  {
+    id: 91,
+    title: "Lift",
+    src: "/video/graduation/ebenglift.mp4",
+  },
+  {
+    id: 92,
+    title: "Pelepasan",
+    src: "/video/graduation/pelepasan.mp4",
+  },
+  {
+    id: 93,
+    title: "Geo Siul",
+    src: "/video/graduation/siulgeo.mp4",
+  },
 ]
