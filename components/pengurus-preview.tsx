@@ -16,7 +16,7 @@ export default function PengurusPreview() {
   const previewMembers = [ketuaKelas, waliKelas, wakilKetua].filter(Boolean)
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted" id="pengurus">
+    <section className="w-full py-12 md:py-24 lg:py-32" id="pengurus">
       <div className="container px-4 md:px-6">
         <MotionWrapper animation="fadeInUp">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">

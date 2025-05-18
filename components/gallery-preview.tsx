@@ -7,7 +7,7 @@ import CustomLink from "@/components/custom-link"
 
 export default function GalleryPreview() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32" id="gallery">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted" id="gallery">
       <div className="container px-4 md:px-6">
         <MotionWrapper animation="fadeInUp">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">

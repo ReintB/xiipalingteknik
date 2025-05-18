@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Award } from "lucide-react"
-import MotionWrapper from "@/components/motion-wrapper"
-import CustomLink from "@/components/custom-link"
+import { Button } from "@/components/ui/button";
+import { Award } from "lucide-react";
+import MotionWrapper from "@/components/motion-wrapper";
+import CustomLink from "@/components/custom-link";
 
 export default function AchievementsSection() {
   const achievements = [
@@ -23,15 +23,17 @@ export default function AchievementsSection() {
       title: "Juara 2 Lomba Paduan Suara KODIM III Bandung",
       student: "Marcell, Theo, Geo, Rosa, Ari, Kusha, Ivan",
     },
-  ]
+  ];
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted" id="achievements">
+    <section className="w-full py-12 md:py-24 lg:py-32" id="achievements">
       <div className="container px-4 md:px-6">
         <MotionWrapper animation="fadeInUp">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Prestasi Kelas</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                Prestasi Kelas
+              </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Berbagai prestasi yang telah diraih oleh siswa-siswi kelas kita.
               </p>
@@ -41,7 +43,12 @@ export default function AchievementsSection() {
 
         <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2">
           {achievements.map((achievement, index) => (
-            <MotionWrapper key={index} animation="fadeInUp" delay={index * 0.15} duration={0.5}>
+            <MotionWrapper
+              key={index}
+              animation="fadeInUp"
+              delay={index * 0.15}
+              duration={0.5}
+            >
               <div className="flex items-start space-x-4 rounded-lg border p-6 bg-background">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                   <Award className="h-6 w-6 text-primary" />
@@ -66,5 +73,5 @@ export default function AchievementsSection() {
         </MotionWrapper>
       </div>
     </section>
-  )
+  );
 }

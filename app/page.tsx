@@ -8,6 +8,7 @@ import GalleryPreview from "@/components/gallery-preview"
 import AchievementsSection from "@/components/achievements-section"
 import TimelinePreview from "@/components/timeline-preview"
 import PengurusPreview from "@/components/pengurus-preview"
+import HeroVideo from "@/components/hero-video"
 import { useState } from "react"
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"></header>
       <main>
         <HeroSection />
+        <HeroVideo />
         <PengurusPreview />
         <TimelinePreview />
         <AchievementsSection />
