@@ -1,28 +1,28 @@
-"use client"
+"use client";
 
-import { Moon, Sun, Menu, X, ChevronDown } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { useState, useEffect } from "react"
-import { usePathname } from "next/navigation"
-import * as React from "react"
-import { motion, AnimatePresence } from "framer-motion"
-import CustomLink from "@/components/custom-link"
-import Link from "next/link"
+import { Moon, Sun, Menu, X, ChevronDown } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+import * as React from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import CustomLink from "@/components/custom-link";
+import Link from "next/link";
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false)
-  const [isDark, setIsDark] = useState(false)
-  const pathname = usePathname()
+  const [open, setOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
-    setOpen(false)
-  }, [pathname])
+    setOpen(false);
+  }, [pathname]);
 
   const toggleTheme = () => {
-    const newTheme = !isDark
-    setIsDark(newTheme)
-    document.documentElement.classList.toggle("dark", newTheme)
-  }
+    const newTheme = !isDark;
+    setIsDark(newTheme);
+    document.documentElement.classList.toggle("dark", newTheme);
+  };
 
   const navItems = [
     { name: "Beranda", path: "/" },
@@ -31,7 +31,7 @@ export default function Navbar() {
       dropdown: [
         { name: "Pengurus", path: "/pengurus" },
         { name: "Siswa", path: "/siswa" },
-      ]
+      ],
     },
     {
       name: "Kegiatan",
@@ -39,28 +39,30 @@ export default function Navbar() {
         { name: "Timeline", path: "/timeline" },
         { name: "Kegiatan", path: "/activities" },
         { name: "Prestasi", path: "/achievements" },
-      ]
+      ],
     },
     {
       name: "Galeri & Memori",
       dropdown: [
         { name: "Galeri", path: "/gallery" },
         { name: "Memori", path: "/memories" },
-      ]
+      ],
     },
     { name: "Kontak", path: "/contact" },
-  ]
+  ];
 
   const isActive = (path: string) => {
-    if (path === "/" && pathname === "/") return true
-    if (path !== "/" && pathname.startsWith(path)) return true
-    return false
-  }
+    if (path === "/" && pathname === "/") return true;
+    if (path !== "/" && pathname.startsWith(path)) return true;
+    return false;
+  };
 
   const isDropdownActive = (item: any) => {
-    if (!item.dropdown) return false
-    return item.dropdown.some((dropdownItem: any) => pathname.startsWith(dropdownItem.path))
-  }
+    if (!item.dropdown) return false;
+    return item.dropdown.some((dropdownItem: any) =>
+      pathname.startsWith(dropdownItem.path)
+    );
+  };
 
   const mobileMenuVariants = {
     closed: {
@@ -73,7 +75,7 @@ export default function Navbar() {
       opacity: 1,
       transition: { duration: 0.3, ease: "easeInOut" },
     },
-  }
+  };
 
   const backdropVariants = {
     closed: {
@@ -84,7 +86,7 @@ export default function Navbar() {
       opacity: 1,
       transition: { duration: 0.3, ease: "easeInOut" },
     },
-  }
+  };
 
   const navItemVariants = {
     hidden: { opacity: 0, y: -10 },
@@ -93,7 +95,7 @@ export default function Navbar() {
       y: 0,
       transition: { delay: i * 0.1, duration: 0.3 },
     }),
-  }
+  };
 
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -125,17 +127,28 @@ export default function Navbar() {
                       <Link href="/">
                         <button
                           onClick={() => {
-                            window.scrollTo({ top: 0, behavior: "smooth" })
-                            setOpen(false)
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                            setOpen(false);
                           }}
                           className="font-bold text-xl cursor-pointer"
                         >
-                          <motion.span whileTap={{ scale: 0.95 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+                          <motion.span
+                            whileTap={{ scale: 0.95 }}
+                            transition={{
+                              type: "spring",
+                              stiffness: 400,
+                              damping: 10,
+                            }}
+                          >
                             XIIPALINGTEKNIK
                           </motion.span>
                         </button>
                       </Link>
-                      <Button variant="ghost" size="icon" onClick={() => setOpen(false)}>
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => setOpen(false)}
+                      >
                         <X className="h-5 w-5" />
                         <span className="sr-only">Close mobile menu</span>
                       </Button>
@@ -152,7 +165,13 @@ export default function Navbar() {
                         >
                           {item.dropdown ? (
                             <>
-                              <div className={`text-sm font-medium ${isDropdownActive(item) ? "text-primary font-bold" : ""}`}>
+                              <div
+                                className={`text-sm font-medium ${
+                                  isDropdownActive(item)
+                                    ? "text-primary font-bold"
+                                    : ""
+                                }`}
+                              >
                                 {item.name}
                               </div>
                               <div className="pl-4 flex flex-col gap-3 border-l border-border">
@@ -160,7 +179,11 @@ export default function Navbar() {
                                   <CustomLink
                                     key={dropdownItem.path}
                                     href={dropdownItem.path}
-                                    className={`text-sm ${isActive(dropdownItem.path) ? "text-primary font-bold" : "text-muted-foreground hover:text-foreground transition-colors"}`}
+                                    className={`text-sm ${
+                                      isActive(dropdownItem.path)
+                                        ? "text-primary font-bold"
+                                        : "text-muted-foreground hover:text-foreground transition-colors"
+                                    }`}
                                     onClick={() => setOpen(false)}
                                   >
                                     {dropdownItem.name}
@@ -171,7 +194,11 @@ export default function Navbar() {
                           ) : (
                             <CustomLink
                               href={item.path}
-                              className={`text-sm font-medium ${isActive(item.path) ? "text-primary font-bold" : ""}`}
+                              className={`text-sm font-medium ${
+                                isActive(item.path)
+                                  ? "text-primary font-bold"
+                                  : ""
+                              }`}
                               onClick={() => setOpen(false)}
                             >
                               {item.name}
@@ -190,11 +217,16 @@ export default function Navbar() {
           <Link href="/">
             <button
               onClick={() => {
-                window.scrollTo({ top: 0, behavior: "smooth" })
+                window.scrollTo({ top: 0, behavior: "smooth" });
               }}
               className="flex items-center gap-2 cursor-pointer"
             >
-              <motion.span className="font-bold text-xl" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+              <motion.span
+                className="font-bold text-xl"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 XIIPALINGTEKNIK
               </motion.span>
             </button>
@@ -216,9 +248,15 @@ export default function Navbar() {
                   <>
                     <div className="flex items-center h-full">
                       <motion.span
-                        className={`text-sm font-medium hover:text-primary flex items-center gap-1 cursor-pointer ${isDropdownActive(item) ? "text-primary font-bold" : ""}`}
+                        className={`text-sm font-medium hover:text-primary flex items-center gap-1 cursor-pointer ${
+                          isDropdownActive(item) ? "text-primary font-bold" : ""
+                        }`}
                         whileHover={{ scale: 1.05 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 10,
+                        }}
                       >
                         {item.name}
                         <ChevronDown className="h-4 w-4 ml-1 transition-transform group-hover:rotate-180" />
@@ -231,14 +269,25 @@ export default function Navbar() {
                             <div className="w-full cursor-pointer">
                               <CustomLink
                                 href={dropdownItem.path}
-                                className={`block py-2.5 px-2 rounded hover:bg-accent transition-colors ${isActive(dropdownItem.path) ? "font-bold" : ""}`}
+                                className={`block py-2.5 px-2 rounded hover:bg-accent transition-colors ${
+                                  isActive(dropdownItem.path) ? "font-bold" : ""
+                                }`}
                               >
-                                <motion.span whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+                                <motion.span
+                                  whileHover={{ x: 5 }}
+                                  transition={{
+                                    type: "spring",
+                                    stiffness: 400,
+                                    damping: 10,
+                                  }}
+                                >
                                   {dropdownItem.name}
                                 </motion.span>
                               </CustomLink>
                             </div>
-                            {index < item.dropdown.length - 1 && <div className="h-px bg-border mx-2 my-1" />}
+                            {index < item.dropdown.length - 1 && (
+                              <div className="h-px bg-border mx-2 my-1" />
+                            )}
                           </React.Fragment>
                         ))}
                       </div>
@@ -247,9 +296,18 @@ export default function Navbar() {
                 ) : (
                   <CustomLink
                     href={item.path}
-                    className={`text-sm font-medium hover:text-primary ${isActive(item.path) ? "text-primary font-bold" : ""}`}
+                    className={`text-sm font-medium hover:text-primary ${
+                      isActive(item.path) ? "text-primary font-bold" : ""
+                    }`}
                   >
-                    <motion.span whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+                    <motion.span
+                      whileHover={{ scale: 1.05 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 10,
+                      }}
+                    >
                       {item.name}
                     </motion.span>
                   </CustomLink>
@@ -260,11 +318,15 @@ export default function Navbar() {
 
           {/* Theme Toggle */}
           <Button variant="ghost" size="icon" onClick={toggleTheme}>
-            {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+            {isDark ? (
+              <Sun className="h-5 w-5" />
+            ) : (
+              <Moon className="h-5 w-5" />
+            )}
             <span className="sr-only">Toggle theme</span>
           </Button>
         </div>
       </div>
     </header>
-  )
+  );
 }

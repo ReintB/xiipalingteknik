@@ -1,17 +1,24 @@
-"use client"
+"use client";
 
-import { motion, useAnimation } from "framer-motion"
-import { useEffect, type ReactNode } from "react"
-import { useInView } from "react-intersection-observer"
+import { motion, useAnimation } from "framer-motion";
+import { useEffect, type ReactNode } from "react";
+import { useInView } from "react-intersection-observer";
 
 interface MotionWrapperProps {
-  children: ReactNode
-  delay?: number
-  duration?: number
-  className?: string
-  animation?: "fadeIn" | "fadeInUp" | "fadeInDown" | "fadeInLeft" | "fadeInRight" | "zoomIn" | "bounce"
-  once?: boolean
-  threshold?: number
+  children: ReactNode;
+  delay?: number;
+  duration?: number;
+  className?: string;
+  animation?:
+    | "fadeIn"
+    | "fadeInUp"
+    | "fadeInDown"
+    | "fadeInLeft"
+    | "fadeInRight"
+    | "zoomIn"
+    | "bounce";
+  once?: boolean;
+  threshold?: number;
 }
 
 export default function MotionWrapper({
@@ -23,11 +30,11 @@ export default function MotionWrapper({
   once = true,
   threshold = 0.1,
 }: MotionWrapperProps) {
-  const controls = useAnimation()
+  const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: once,
     threshold,
-  })
+  });
 
   const animations = {
     fadeIn: {
@@ -66,17 +73,17 @@ export default function MotionWrapper({
         },
       },
     },
-  }
+  };
 
-  const selectedAnimation = animations[animation]
+  const selectedAnimation = animations[animation];
 
   useEffect(() => {
     if (inView) {
-      controls.start("visible")
+      controls.start("visible");
     } else if (!once) {
-      controls.start("hidden")
+      controls.start("hidden");
     }
-  }, [controls, inView, once])
+  }, [controls, inView, once]);
 
   return (
     <motion.div
@@ -89,5 +96,5 @@ export default function MotionWrapper({
     >
       {children}
     </motion.div>
-  )
+  );
 }

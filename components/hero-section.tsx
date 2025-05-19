@@ -1,23 +1,33 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import { ImageViewer } from "@/components/image-viewer"
-import { heroImages } from "@/data/hero-images"
-import MotionWrapper from "@/components/motion-wrapper"
-import { Cog, Wrench, Pickaxe } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { ImageViewer } from "@/components/image-viewer";
+import { heroImages } from "@/data/hero-images";
+import MotionWrapper from "@/components/motion-wrapper";
+import { Cog, Wrench, Pickaxe } from "lucide-react";
 
 export default function HeroSection() {
   return (
     <section className="w-full min-h-screen flex items-starts py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-          <MotionWrapper animation="fadeInLeft" duration={0.7} className="self-center">
+          <MotionWrapper
+            animation="fadeInLeft"
+            duration={0.7}
+            className="self-center"
+          >
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-              <h1 className="flex items-center gap-2 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">XIIPALINGTEKNIK<Cog className="w-8 h-8" /><Wrench className="w-8 h-8" /><Pickaxe className="w-8 h-8" /></h1>
+                <h1 className="flex items-center gap-2 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                  XIIPALINGTEKNIK
+                  <Cog className="w-8 h-8" />
+                  <Wrench className="w-8 h-8" />
+                  <Pickaxe className="w-8 h-8" />
+                </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Tempat untuk mengabadikan kenangan, prestasi, dan momen berharga selama masa sekolah kita.
+                  Tempat untuk mengabadikan kenangan, prestasi, dan momen
+                  berharga selama masa sekolah kita.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -49,5 +59,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

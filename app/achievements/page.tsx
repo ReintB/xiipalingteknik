@@ -1,8 +1,14 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent } from "@/components/ui/tabs"
-import { Trophy } from "lucide-react"
-import { allAchievements} from "@/data/achievements"
-import { ImageViewer } from "@/components/image-viewer"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsContent } from "@/components/ui/tabs";
+import { Trophy } from "lucide-react";
+import { allAchievements } from "@/data/achievements";
+import { ImageViewer } from "@/components/image-viewer";
 
 export default function AchievementsPage() {
   return (
@@ -11,9 +17,12 @@ export default function AchievementsPage() {
         <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mb-4">
           <Trophy className="h-6 w-6 text-primary" />
         </div>
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Prestasi</h1>
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          Prestasi
+        </h1>
         <p className="max-w-[700px] text-muted-foreground md:text-xl">
-          Berbagai prestasi yang telah diraih oleh siswa-siswi kelas XIIPALINGTEKNIK.
+          Berbagai prestasi yang telah diraih oleh siswa-siswi kelas
+          XIIPALINGTEKNIK.
         </p>
       </div>
 
@@ -33,14 +42,16 @@ export default function AchievementsPage() {
                 </div>
                 <CardHeader className="p-4">
                   <div className="flex justify-between items-start">
-                    <CardTitle className="text-lg">{achievement.title}</CardTitle>
+                    <CardTitle className="text-lg">
+                      {achievement.title}
+                    </CardTitle>
                   </div>
-                  <CardDescription>
-                    {achievement.student}
-                  </CardDescription>
+                  <CardDescription>{achievement.student}</CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground">{achievement.description}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {achievement.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -48,5 +59,5 @@ export default function AchievementsPage() {
         </TabsContent>
       </Tabs>
     </div>
-  )
+  );
 }

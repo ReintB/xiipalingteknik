@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import { Dialog, DialogContent } from "@/components/ui/dialog"
-import { Play } from "lucide-react"
+import { useState } from "react";
+import Image from "next/image";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Play } from "lucide-react";
 
 interface VideoViewerProps {
   thumbnail: string;
@@ -13,12 +13,22 @@ interface VideoViewerProps {
   [key: string]: any;
 }
 
-export function VideoViewer({ thumbnail, title, videoSrc, className, ...props }: VideoViewerProps) {
-  const [isOpen, setIsOpen] = useState(false)
+export function VideoViewer({
+  thumbnail,
+  title,
+  videoSrc,
+  className,
+  ...props
+}: VideoViewerProps) {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <div className={`cursor-pointer relative group ${className}`} onClick={() => setIsOpen(true)} {...props}>
+      <div
+        className={`cursor-pointer relative group ${className}`}
+        onClick={() => setIsOpen(true)}
+        {...props}
+      >
         <Image
           src={thumbnail || "/placeholder.svg"}
           alt={title}
@@ -35,7 +45,12 @@ export function VideoViewer({ thumbnail, title, videoSrc, className, ...props }:
         <DialogContent className="max-w-4xl p-0 overflow-hidden bg-transparent border-none">
           <div className="relative w-full aspect-video">
             {videoSrc ? (
-              <video src={videoSrc} controls autoPlay className="w-full h-full" />
+              <video
+                src={videoSrc}
+                controls
+                autoPlay
+                className="w-full h-full"
+              />
             ) : (
               <div className="flex items-center justify-center w-full h-full bg-black">
                 <div className="text-center text-white p-4">
@@ -48,5 +63,5 @@ export function VideoViewer({ thumbnail, title, videoSrc, className, ...props }:
         </DialogContent>
       </Dialog>
     </>
-  )
+  );
 }

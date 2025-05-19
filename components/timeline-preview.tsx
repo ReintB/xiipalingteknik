@@ -1,26 +1,29 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { CalendarDays } from "lucide-react"
-import MotionWrapper from "@/components/motion-wrapper"
-import CustomLink from "@/components/custom-link"
+import { Button } from "@/components/ui/button";
+import { CalendarDays } from "lucide-react";
+import MotionWrapper from "@/components/motion-wrapper";
+import CustomLink from "@/components/custom-link";
 
 export default function TimelinePreview() {
   const events = [
     {
       date: "17 Juli 2023",
       title: "Awal Tahun Ajaran Baru Kelas XI",
-      description: "Memulai tahun ajaran baru dengan semangat dan harapan baru.",
+      description:
+        "Memulai tahun ajaran baru dengan semangat dan harapan baru.",
     },
     {
       date: "19 Januari 2024",
       title: "Study Tour Bali-Jogja",
-      description: "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
+      description:
+        "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
     },
     {
       date: "15 Juli 2024",
       title: "Awal Tahun Ajaran Baru Kelas XII",
-      description: "Memulai tahun ajaran baru dengan semangat dan harapan baru.",
+      description:
+        "Memulai tahun ajaran baru dengan semangat dan harapan baru.",
     },
     {
       date: "10 Maret 2025",
@@ -32,7 +35,7 @@ export default function TimelinePreview() {
       title: "Hari Kelulusan",
       description: "Merayakan kelulusan bersama teman-teman sekelas.",
     },
-  ]
+  ];
 
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-muted" id="timeline">
@@ -40,7 +43,9 @@ export default function TimelinePreview() {
         <MotionWrapper animation="fadeInUp">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Timeline Kelas</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                Timeline Kelas
+              </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Perjalanan kelas XIIPALINGTEKNIK dari awal hingga akhir.
               </p>
@@ -63,11 +68,15 @@ export default function TimelinePreview() {
                   </div>
                   <div className="w-[calc(100%-4rem)] rounded-lg border bg-background p-4 md:w-[calc(50%-2.5rem)]">
                     <div className="flex items-center space-x-2 mb-1">
-                      <time className="text-sm font-semibold text-primary">{event.date}</time>
+                      <time className="text-sm font-semibold text-primary">
+                        {event.date}
+                      </time>
                     </div>
                     <div className="space-y-2">
                       <h3 className="text-lg font-bold">{event.title}</h3>
-                      <p className="text-sm text-muted-foreground">{event.description}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {event.description}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -75,7 +84,7 @@ export default function TimelinePreview() {
             ))}
           </div>
         </div>
-        
+
         <MotionWrapper animation="fadeInUp" delay={0.6}>
           <div className="flex justify-center">
             <CustomLink href="/timeline">
@@ -85,5 +94,5 @@ export default function TimelinePreview() {
         </MotionWrapper>
       </div>
     </section>
-  )
+  );
 }

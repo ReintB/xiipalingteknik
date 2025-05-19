@@ -1,7 +1,13 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Quote } from "lucide-react"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Quote } from "lucide-react";
 
 export default function MemoriesPage() {
   const studentMemories = [
@@ -53,7 +59,7 @@ export default function MemoriesPage() {
       message:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare dignissim diam, nec mattis mauris. Phasellus sagittis efficitur sapien, eget volutpat leo tempus a. Donec finibus faucibus nisi, facilisis semper erat commodo vel. Curabitur rutrum ex sit amet pulvinar viverra. In tempus mattis lobortis.",
     },
-  ]
+  ];
 
   const teacherMemories = [
     {
@@ -69,8 +75,7 @@ export default function MemoriesPage() {
       name: "Pak Nicolas Dwiatmoko, S.T",
       avatar: "/placeholder.svg?",
       role: "Guru Informatika",
-      message:
-        "Semoga sukses mau dimana pun kalian kuliah.",
+      message: "Semoga sukses mau dimana pun kalian kuliah.",
     },
     {
       id: 3,
@@ -101,10 +106,9 @@ export default function MemoriesPage() {
       name: "Pak Ganjar Anoegrah, S.Pd.",
       avatar: "/placeholder.svg?",
       role: "Guru Bahasa Sunda",
-      message:
-        "Selalu tersenyum!",
+      message: "Selalu tersenyum!",
     },
-  ]
+  ];
 
   return (
     <div className="container py-12">
@@ -112,9 +116,12 @@ export default function MemoriesPage() {
         <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mb-4">
           <Quote className="h-6 w-6 text-primary" />
         </div>
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Memori</h1>
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          Memori
+        </h1>
         <p className="max-w-[700px] text-muted-foreground md:text-xl">
-          Kumpulan kesan dan pesan dari siswa dan guru yang telah menjadi bagian dari perjalanan kita.
+          Kumpulan kesan dan pesan dari siswa dan guru yang telah menjadi bagian
+          dari perjalanan kita.
         </p>
       </div>
 
@@ -130,7 +137,11 @@ export default function MemoriesPage() {
               <Card key={memory.id}>
                 <CardHeader className="flex flex-row items-start gap-4 pb-2">
                   <Avatar className="self-center">
-                    <AvatarImage src={memory.avatar} alt={memory.name} className="w-full h-full object-cover object-top rounded-full" />
+                    <AvatarImage
+                      src={memory.avatar}
+                      alt={memory.name}
+                      className="w-full h-full object-cover object-top rounded-full"
+                    />
                     <AvatarFallback>
                       {memory.name
                         .split(" ")
@@ -144,13 +155,15 @@ export default function MemoriesPage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">{memory.message}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {memory.message}
+                  </p>
                 </CardContent>
               </Card>
             ))}
           </div>
         </TabsContent>
-        
+
         <TabsContent value="teachers">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {teacherMemories.map((memory) => (
@@ -171,7 +184,9 @@ export default function MemoriesPage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">{memory.message}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {memory.message}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -179,5 +194,5 @@ export default function MemoriesPage() {
         </TabsContent>
       </Tabs>
     </div>
-  )
+  );
 }

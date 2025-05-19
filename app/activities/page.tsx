@@ -1,17 +1,28 @@
-"use client"
+"use client";
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Calendar } from "lucide-react"
-import { useState } from "react"
-import { activities } from "@/data/activities"
-import { ImageViewer } from "@/components/image-viewer"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Calendar } from "lucide-react";
+import { useState } from "react";
+import { activities } from "@/data/activities";
+import { ImageViewer } from "@/components/image-viewer";
 
 export default function ActivitiesPage() {
-  const categories = ["Semua", ...new Set(activities.map((activity) => activity.category))]
-  const [activeCategory, setActiveCategory] = useState("Semua")
+  const categories = [
+    "Semua",
+    ...new Set(activities.map((activity) => activity.category)),
+  ];
+  const [activeCategory, setActiveCategory] = useState("Semua");
 
   const filteredActivities =
-    activeCategory === "Semua" ? activities : activities.filter((activity) => activity.category === activeCategory)
+    activeCategory === "Semua"
+      ? activities
+      : activities.filter((activity) => activity.category === activeCategory);
 
   return (
     <div className="container py-12">
@@ -19,7 +30,9 @@ export default function ActivitiesPage() {
         <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 mb-4">
           <Calendar className="h-6 w-6 text-primary" />
         </div>
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Kegiatan</h1>
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          Kegiatan
+        </h1>
         <p className="max-w-[700px] text-muted-foreground md:text-xl">
           Dokumentasi berbagai kegiatan yang telah dilakukan bersama.
         </p>
@@ -43,7 +56,9 @@ export default function ActivitiesPage() {
 
       {filteredActivities.length === 0 ? (
         <div className="text-center py-12">
-          <p className="text-muted-foreground">Tidak ada kegiatan dalam kategori ini</p>
+          <p className="text-muted-foreground">
+            Tidak ada kegiatan dalam kategori ini
+          </p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -69,12 +84,14 @@ export default function ActivitiesPage() {
                 <CardDescription>{activity.date}</CardDescription>
               </CardHeader>
               <CardContent className="p-4 pt-0">
-                <p className="text-sm text-muted-foreground">{activity.description}</p>
+                <p className="text-sm text-muted-foreground">
+                  {activity.description}
+                </p>
               </CardContent>
             </Card>
           ))}
         </div>
       )}
     </div>
-  )
+  );
 }

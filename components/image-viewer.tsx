@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import { Dialog, DialogContent } from "@/components/ui/dialog"
+import { useState } from "react";
+import Image from "next/image";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 
 interface ImageViewerProps {
   src: string;
@@ -13,12 +13,23 @@ interface ImageViewerProps {
   [key: string]: any;
 }
 
-export function ImageViewer({ src, alt, width, height, className, ...props }: ImageViewerProps) {
-  const [isOpen, setIsOpen] = useState(false)
+export function ImageViewer({
+  src,
+  alt,
+  width,
+  height,
+  className,
+  ...props
+}: ImageViewerProps) {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <div className={`cursor-pointer ${className}`} onClick={() => setIsOpen(true)} {...props}>
+      <div
+        className={`cursor-pointer ${className}`}
+        onClick={() => setIsOpen(true)}
+        {...props}
+      >
         <Image
           src={src || "/placeholder.svg"}
           alt={alt}
@@ -42,5 +53,5 @@ export function ImageViewer({ src, alt, width, height, className, ...props }: Im
         </DialogContent>
       </Dialog>
     </>
-  )
+  );
 }
