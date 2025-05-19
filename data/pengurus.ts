@@ -52,7 +52,7 @@ export const classXI = [
     position: "Sie Kebersihan",
     name: "Andreas Anandeto Serafino Danendra Puspa",
     photo: "/siswa/02.JPG?height=200&width=200",
-    description: "Memastikan kebersihan kelas terjaga.",
+    description: "Memastikan kebersihan kelas.",
   },
   {
     position: "Sie Olahraga",
@@ -122,7 +122,7 @@ export const classXII = [
     position: "Sie Kebersihan",
     name: "Andreas Anandeto Serafino Danendra Puspa",
     photo: "/siswa/02.JPG?height=200&width=200",
-    description: "Memastikan kebersihan kelas terjaga.",
+    description: "Memastikan kebersihan kelas.",
   },
   {
     position: "Sie Olahraga",
