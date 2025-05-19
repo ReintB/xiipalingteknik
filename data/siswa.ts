@@ -9,7 +9,7 @@ export const students = [
   },
   {
     id: 2,
-    name: "Andreas Anandeto Serafino D. P.",
+    name: "Andreas Anandeto Serafino Danendra Puspa",
     photo: "/siswa/02.JPG?height=300&width=300&text=Siswa+2",
     ttl: "Bandung, 11 November 2006",
     instagram: "@andreasserfin_",
@@ -41,7 +41,7 @@ export const students = [
   },
   {
     id: 6,
-    name: "Constantinus Ramakusha P.",
+    name: "Constantinus Ramakusha Pranendriya",
     photo: "/siswa/06.JPG?height=300&width=300&text=Siswa+6",
     ttl: "Bandung, 4 Januari 2007",
     instagram: "@coraendology",
@@ -89,7 +89,7 @@ export const students = [
   },
   {
     id: 12,
-    name: "Geosefin Rosario P. O. M. S.",
+    name: "Geosefin Rosario Parhorasan O. M. S.",
     photo: "/siswa/12.JPG?height=300&width=300&text=Siswa+12",
     ttl: "Bogor, 10 Oktober 2007",
     instagram: "@geo.okt",
@@ -162,7 +162,7 @@ export const students = [
   },
   {
     id: 21,
-    name: "Quodvultdeo Agra Kristo S.",
+    name: "Quodvultdeo Agra Kristo Sihombing",
     photo: "/siswa/21.JPG?height=300&width=300&text=Siswa+21",
     ttl: "Bandung, 30 Oktober 2006",
     instagram: "@uraniometra",

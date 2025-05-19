@@ -8,7 +8,7 @@ export const classXI = [
   },
   {
     position: "Ketua Kelas",
-    name: "Quodvultdeo Agra Kristo S.",
+    name: "Quodvultdeo Agra Kristo Sihombing",
     photo: "/siswa/21.JPG?height=200&width=200",
     description: "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
   },
@@ -50,7 +50,7 @@ export const classXI = [
   },
   {
     position: "Sie Kebersihan",
-    name: "Andreas Anandeto Serafino D. P.",
+    name: "Andreas Anandeto Serafino Danendra Puspa",
     photo: "/siswa/02.JPG?height=200&width=200",
     description: "Memastikan kebersihan kelas terjaga.",
   },
@@ -84,7 +84,7 @@ export const classXII = [
   },
   {
     position: "Wakil Ketua Kelas",
-    name: "Geosefin Rosario P. O. M. S.",
+    name: "Geosefin Rosario Parhorasan O. M. S.",
     photo: "/siswa/12.JPG?height=200&width=200",
     description: "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
   },
@@ -120,7 +120,7 @@ export const classXII = [
   },
   {
     position: "Sie Kebersihan",
-    name: "Andreas Anandeto Serafino D. P.",
+    name: "Andreas Anandeto Serafino Danendra Puspa",
     photo: "/siswa/02.JPG?height=200&width=200",
     description: "Memastikan kebersihan kelas terjaga.",
   },
