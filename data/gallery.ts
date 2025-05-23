@@ -677,4 +677,214 @@ export const videos = [
     title: "Geo Siul",
     src: "/video/graduation/siulgeo.mp4",
   },
+  {
+    id: 94,
+    title: "12.4 Recap",
+    src: "/villa/video/124recap.mp4",
+  },
+  {
+    id: 95,
+    title: "Aduh Abang",
+    src: "/villa/video/aduhabang.mp4",
+  },
+  {
+    id: 96,
+    title: "Arsip Sanmar 1",
+    src: "/villa/video/arsipsanmar1.mp4",
+  },
+  {
+    id: 97,
+    title: "Barang Berharga",
+    src: "/villa/video/barangberharga.mp4",
+  },
+  {
+    id: 98,
+    title: "Carlo Garam Dan Madu",
+    src: "/villa/video/carlogaramdanmadu.mp4",
+  },
+  {
+    id: 99,
+    title: "Cebur Acel",
+    src: "/villa/video/ceburacel.mp4",
+  },
+  {
+    id: 100,
+    title: "Credit Guru",
+    src: "/villa/video/creditguru.mp4",
+  },
+  {
+    id: 101,
+    title: "XII-4",
+    src: "/villa/video/duabelasempat.mp4",
+  },
+  {
+    id: 102,
+    title: "Duduk Kolam",
+    src: "/villa/video/dudukkolam.mp4",
+  },
+  {
+    id: 103,
+    title: "Dugong",
+    src: "/villa/video/dugong.mp4",
+  },
+  {
+    id: 104,
+    title: "Ebeng Cebur",
+    src: "/villa/video/ebengcebur.mp4",
+  },
+  {
+    id: 105,
+    title: "Gagal Galvin",
+    src: "/villa/video/gagalgalvin.mp4",
+  },
+  {
+    id: 106,
+    title: "Ikan Eunike",
+    src: "/villa/video/ikanunik.mp4",
+  },
+  {
+    id: 107,
+    title: "Jadwal Konvoi",
+    src: "/villa/video/jadwalkonvoi.mp4",
+  },
+  {
+    id: 108,
+    title: "Kaus Kaki Carlo",
+    src: "/villa/video/kauskakicarlo.mp4",
+  },
+  {
+    id: 109,
+    title: "Kekiri",
+    src: "/villa/video/kekiri.mp4",
+  },
+  {
+    id: 110,
+    title: "Kenangan Indah",
+    src: "/villa/video/kenanganindah.mp4",
+  },
+  {
+    id: 111,
+    title: "Kodok Kolam",
+    src: "/villa/video/kodokkolam.mp4",
+  },
+  {
+    id: 112,
+    title: "Kolam",
+    src: "/villa/video/kolam.mp4",
+  },
+  {
+    id: 113,
+    title: "Korban Ketua",
+    src: "/villa/video/korbanketua.mp4",
+  },
+  {
+    id: 114,
+    title: "Kumerasakan",
+    src: "/villa/video/kumerasakan.mp4",
+  },
+  {
+    id: 115,
+    title: "Maumere",
+    src: "/villa/video/maumere.mp4",
+  },
+  {
+    id: 116,
+    title: "Mocil Keram",
+    src: "/villa/video/mocilkeram.mp4",
+  },
+  {
+    id: 117,
+    title: "Ngide",
+    src: "/villa/video/ngide.mp4",
+  },
+  {
+    id: 118,
+    title: "Ninja Theo",
+    src: "/villa/video/ninjatheo.mp4",
+  },
+  {
+    id: 119,
+    title: "Nona Ambon",
+    src: "/villa/video/nonaambon.mp4",
+  },
+  {
+    id: 120,
+    title: "Ocha Uno",
+    src: "/villa/video/ochauno.mp4",
+  },
+  {
+    id: 121,
+    title: "Opung Ketua",
+    src: "/villa/video/opungketua.mp4",
+  },
+  {
+    id: 122,
+    title: "Pemanasan",
+    src: "/villa/video/pemanasan.mp4",
+  },
+  {
+    id: 123,
+    title: "Pembalasan Theo",
+    src: "/villa/video/pembalasantheo.mp4",
+  },
+  {
+    id: 124,
+    title: "Pengarahan",
+    src: "/villa/video/pengarahan.mp4",
+  },
+  {
+    id: 125,
+    title: "Perenang Pertama",
+    src: "/villa/video/perenangpertama.mp4",
+  },
+  {
+    id: 126,
+    title: "Persib",
+    src: "/villa/video/persib.mp4",
+  },
+  {
+    id: 127,
+    title: "Prank Ebeng",
+    src: "/villa/video/prankebeng.mp4",
+  },
+  {
+    id: 128,
+    title: "Smoki",
+    src: "/villa/video/smoki.mp4",
+  },
+  {
+    id: 129,
+    title: "Vino Trauma",
+    src: "/villa/video/vinotrauma.mp4",
+  },
+  {
+    id: 130,
+    title: "Wajah Asli Vino",
+    src: "/villa/video/wajahaslivino.mp4",
+  },
+  {
+    id: 131,
+    title: "Zakheus",
+    src: "/villa/video/zakheus.mp4",
+  },
+  {
+    id: 132,
+    title: "Bakar-Bakar",
+    src: "/villa/video/babakaran.mp4",
+  },
+  {
+    id: 133,
+    title: "Situasi Dapur",
+    src: "/villa/video/dapur.mp4",
+  },
+  {
+    id: 134,
+    title: "Review Carlo Eja",
+    src: "/villa/video/reviewb2.mp4",
+  },
+  {
+    id: 135,
+    title: "Yahu Nonton",
+    src: "/villa/video/yahu.mp4",
+  },
 ]
