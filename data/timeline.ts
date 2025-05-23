@@ -113,4 +113,10 @@ export const events = [
     description: "Merayakan kelulusan bersama teman-teman.",
     highlight: true,
   },
+  {
+    date: "20 Mei 2025",
+    title: "Villa",
+    description: "Kegiatan kebersamaan di villa sebagai penutup manis setelah momen kelulusan.",
+    highlight: true,
+  },
 ]
