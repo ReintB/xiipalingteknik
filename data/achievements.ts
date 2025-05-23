@@ -69,4 +69,25 @@ export const allAchievements = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
     image: "/prestasi/prestasiITECH.png?height=300&width=400",
   },
+  {
+    id: 11,
+    title: "Peraih Nilai Ijazah Tertinggi",
+    student: "Deo",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/graduation/gradu19.jpg?height=300&width=400",
+  },
+  {
+    id: 12,
+    title: "Peringkat 3 Besar Kelas XII-4",
+    student: "Deo, Yahu, Marcell",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/graduation/gradu17.jpg?height=300&width=400",
+  },
+  {
+    id: 13,
+    title: "Highest TOEFL Score",
+    student: "Flavio, Kusha, Varrell",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas lacus in nisl pharetra placerat.",
+    image: "/graduation/gradu20.jpg?height=300&width=400",
+  },
 ]
