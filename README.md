@@ -78,4 +78,6 @@ Terima kasih telah menjadi bagian dari cerita ini.
 Dengan penuh rasa hormat dan kasih,  
 **Reinhart Barus**
 
+Terima kasih banyak untuk **Rosa Regina Placidiaz Resi Wea**, **Ezra Violentina Sidauruk** dan **Eunike Dwinanda** untuk kontribusinya dalam mendokumentasi seluruh kegiatan kelas baik dalam bentuk foto atau video.
+
 ## See you on top orang-orang hebat!
