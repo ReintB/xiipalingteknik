@@ -35,6 +35,7 @@ export function VideoViewer({
           width={600}
           height={400}
           className="object-cover w-full h-full transition-transform group-hover:scale-105"
+          loading="lazy"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity">
           <Play className="w-12 h-12 text-white" />

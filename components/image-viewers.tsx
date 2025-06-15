@@ -48,6 +48,7 @@ export function ImageViewers({
               width={1200}
               height={800}
               className="object-contain max-h-[80vh]"
+              loading="lazy"
             />
           </div>
         </DialogContent>

@@ -71,6 +71,7 @@ export default function ActivitiesPage() {
                   width={400}
                   height={400}
                   className="aspect-video"
+                  loading="lazy"
                 />
               </div>
               <CardHeader className="p-4">

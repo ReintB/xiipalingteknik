@@ -51,6 +51,7 @@ export default function HeroSection() {
                     width={800}
                     height={600}
                     alt={image.alt}
+                    loading="lazy"
                   />
                 ))}
               </div>

@@ -57,6 +57,7 @@ export default function PengurusPreview() {
                     width={400}
                     height={400}
                     className="aspect-square object-cover object-top"
+                    loading="lazy"
                   />
                 </div>
                 <CardHeader className="p-4">

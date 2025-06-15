@@ -43,6 +43,7 @@ export default function GalleryPreview() {
                   height={400}
                   alt={photo.title}
                   className="aspect-video"
+                  loading="lazy"
                 />
               </div>
             </MotionWrapper>

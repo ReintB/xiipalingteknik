@@ -38,6 +38,7 @@ export default function AchievementsPage() {
                     width={600}
                     height={400}
                     className="aspect-video"
+                    loading="lazy"
                   />
                 </div>
                 <CardHeader className="p-4">
