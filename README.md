@@ -31,36 +31,36 @@ Sebagian besar siswa dari kelas ini memiliki aspirasi melanjutkan studi ke jurus
 
 ## Daftar Nama Siswa
 
-- Alexander Justine Olimawidjaja
-- Andreas Anandeto Serafino Danendra Puspa
-- Artheo Christian
-- Carlo Nathan Surbakti
-- Catherina Olivia
-- Constantinus Ramakusha Pranendriya
-- Eger Julian Yesaya Bangun
-- Eunike Dwinanda
-- Ezra Febrian Muliautama
-- Ezra Violentina Sidauruk
-- Flavio Harigunawan Tetjiakusuma
-- Geosefin Rosario Parhorasan Oktovianus Mayfan Simbolon
-- Gregorius Vino Carmelo
-- Ivander Keynan Sianturi
-- Jerikho Kiandra Putera Setiawan
-- Khresna Mulia Putra
-- Marcellinus Daviano
-- Mazel Eko Satrio Utomo
-- Moses Heries Adriano
-- Moses Hesikhia Panggabean
-- Quodvultdeo Agra Kristo Sihombing
-- Reinhart Barus
-- Reviola Cecilia Valerine
-- Rhyu Santosa
-- Rosa Regina Placidiaz Resi Wea
-- Saing, Rahel Febrisa
-- Sebastian Ari
-- Stanislaus Kostka Galvin Adiputra
-- Varrell Audric Suganda
-- Yermeyahu Ariel Minwary
+- Alexander Justine Olimawidjaja (Justine)
+- Andreas Anandeto Serafino Danendra Puspa (Andreas)
+- Artheo Christian (Theo)
+- Carlo Nathan Surbakti (Carlo)
+- Catherina Olivia (Catherina)
+- Constantinus Ramakusha Pranendriya (Kusha)
+- Eger Julian Yesaya Bangun (Eger)
+- Eunike Dwinanda (Eunike)
+- Ezra Febrian Muliautama (Ezra F)
+- Ezra Violentina Sidauruk (Ezra V)
+- Flavio Harigunawan Tetjiakusuma (Flavio)
+- Geosefin Rosario Parhorasan Oktovianus Mayfan Simbolon (Geosefin)
+- Gregorius Vino Carmelo (Vino)
+- Ivander Keynan Sianturi (Ivan)
+- Jerikho Kiandra Putera Setiawan (Jerikho)
+- Khresna Mulia Putra (Khresna)
+- Marcellinus Daviano (Marcell)
+- Mazel Eko Satrio Utomo (Mazel)
+- Moses Heries Adriano (Mocil)
+- Moses Hesikhia Panggabean (Moge)
+- Quodvultdeo Agra Kristo Sihombing (Deo)
+- Reinhart Barus (Reint)
+- Reviola Cecilia Valerine (Revi)
+- Rhyu Santosa (Rhyu)
+- Rosa Regina Placidiaz Resi Wea (Rosa)
+- Saing, Rahel Febrisa (Rahel)
+- Sebastian Ari (Ari)
+- Stanislaus Kostka Galvin Adiputra (Galvin)
+- Varrell Audric Suganda (Varrell)
+- Yermeyahu Ariel Minwary (Yahu)
 
 ## Tujuan Website
 
