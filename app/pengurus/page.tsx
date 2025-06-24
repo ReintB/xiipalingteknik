@@ -52,8 +52,14 @@ export default function PengurusPage() {
     );
     const humas = members.find((m: Member) => m.position === "Humas");
 
+    // Untuk row1: mobile = Wali, Ketua, Wakil; desktop = Ketua, Wali, Wakil
+    const row1 = [
+      waliKelas ? { ...waliKelas, _order: "order-1 md:order-2" } : null,
+      ketuaKelas ? { ...ketuaKelas, _order: "order-2 md:order-1" } : null,
+      wakilKetua ? { ...wakilKetua, _order: "order-3 md:order-3" } : null,
+    ].filter(Boolean);
     return {
-      row1: [ketuaKelas, waliKelas, wakilKetua].filter(Boolean),
+      row1,
       row2: [sekretaris1, sekretaris2, bendahara1, bendahara2].filter(Boolean),
       row3: [sieRohani, sieKebersihan, sieOlahraga, humas].filter(Boolean),
     };
@@ -89,18 +95,15 @@ export default function PengurusPage() {
           {/* Row 1: Ketua, Wali Kelas, Wakil */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {organizedXI.row1.map(
-              (member, index) =>
+              (member: any, index: number) =>
                 member && (
                   <MotionWrapper
                     key={index}
                     animation="fadeInUp"
                     delay={index * 0.2}
+                    className={member._order}
                   >
-                    <Card
-                      className={`overflow-hidden ${
-                        index === 1 ? "md:col-span-1" : ""
-                      }`}
-                    >
+                    <Card className={index === 1 ? "md:col-span-1" : ""}>
                       <div className="aspect-square relative">
                         <ImageViewers
                           src={member.photo || "/placeholder.svg"}
@@ -200,18 +203,15 @@ export default function PengurusPage() {
           {/* Row 1: Ketua, Wali Kelas, Wakil */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {organizedXII.row1.map(
-              (member, index) =>
+              (member: any, index: number) =>
                 member && (
                   <MotionWrapper
                     key={index}
                     animation="fadeInUp"
                     delay={index * 0.2}
+                    className={member._order}
                   >
-                    <Card
-                      className={`overflow-hidden ${
-                        index === 1 ? "md:col-span-1" : ""
-                      }`}
-                    >
+                    <Card className={index === 1 ? "md:col-span-1" : ""}>
                       <div className="aspect-square relative">
                         <ImageViewers
                           src={member.photo || "/placeholder.svg"}

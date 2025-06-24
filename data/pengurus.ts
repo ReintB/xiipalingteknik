@@ -4,19 +4,22 @@ export const classXI = [
     position: "Wali Kelas",
     name: "Nicolas Dwiatmoko, S.T",
     photo: "/guru/pakNico.png?height=200&width=200",
-    description: "Wali kelas yang bertanggung jawab membimbing perkembangan siswa-siswi kelas XI.",
+    description:
+      "Wali kelas yang bertanggung jawab membimbing perkembangan siswa-siswi kelas XI.",
   },
   {
     position: "Ketua Kelas",
     name: "Quodvultdeo Agra Kristo Sihombing",
     photo: "/siswa/21.JPG?height=200&width=200",
-    description: "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
+    description:
+      "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
   },
   {
     position: "Wakil Ketua Kelas",
     name: "Ezra Violentina Sidauruk",
     photo: "/siswa/10.JPG?height=200&width=200",
-    description: "Membantu ketua kelas dalam menjalankan tugas dan tanggung jawabnya.",
+    description:
+      "Membantu ketua kelas dalam menjalankan tugas dan tanggung jawabnya.",
   },
   {
     position: "Sekretaris 1",
@@ -66,7 +69,7 @@ export const classXI = [
     photo: "/siswa/07.JPG?height=200&width=200",
     description: "Menjaga hubungan baik dengan kelas lain dan pihak eksternal.",
   },
-]
+];
 
 //Kelas XII
 export const classXII = [
@@ -74,19 +77,22 @@ export const classXII = [
     position: "Wali Kelas",
     name: "Sebastianus Sulistyanto, S.Pd.",
     photo: "/guru/pakBas.png?height=200&width=200",
-    description: "Wali kelas yang bertanggung jawab membimbing perkembangan siswa-siswi kelas XII.",
+    description:
+      "Wali kelas yang bertanggung jawab membimbing perkembangan siswa-siswi kelas XII.",
   },
   {
     position: "Ketua Kelas",
     name: "Moses Hesikhia Panggabean",
     photo: "/siswa/20.JPG?height=200&width=200",
-    description: "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
+    description:
+      "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
   },
   {
     position: "Wakil Ketua Kelas",
     name: "Geosefin Rosario Parhorasan O. M. S.",
     photo: "/siswa/12.JPG?height=200&width=200",
-    description: "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
+    description:
+      "Bertanggung jawab atas keseluruhan kelas dan menjadi penghubung antara siswa dan guru.",
   },
   {
     position: "Sekretaris 1",
@@ -136,4 +142,4 @@ export const classXII = [
     photo: "/siswa/07.JPG?height=200&width=200",
     description: "Menjaga hubungan baik dengan kelas lain dan pihak eksternal.",
   },
-]
+];

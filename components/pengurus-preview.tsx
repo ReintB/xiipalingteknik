@@ -19,7 +19,12 @@ export default function PengurusPreview() {
   const ketuaKelas = classXII.find((m) => m.position === "Ketua Kelas");
   const wakilKetua = classXII.find((m) => m.position === "Wakil Ketua Kelas");
 
-  const previewMembers = [ketuaKelas, waliKelas, wakilKetua].filter(Boolean);
+  // Untuk mobile: Wali Kelas di atas, desktop: urutan asli
+  const previewMembers = [
+    { ...waliKelas, _order: "order-1 md:order-2" },
+    { ...ketuaKelas, _order: "order-2 md:order-1" },
+    { ...wakilKetua, _order: "order-3 md:order-3" },
+  ].filter((m) => m && m.position);
 
   return (
     <section className="w-full py-12 md:py-24 lg:py-32" id="pengurus">
@@ -41,15 +46,16 @@ export default function PengurusPreview() {
           </div>
         </MotionWrapper>
 
-        <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl gap-6 py-12 grid-cols-1 md:grid-cols-3">
           {previewMembers.map((member, index) => (
             <MotionWrapper
               key={index}
               animation="fadeInUp"
               delay={index * 0.2}
               duration={0.6}
+              className={`overflow-hidden ${member._order}`}
             >
-              <Card className="overflow-hidden">
+              <Card>
                 <div className="aspect-square relative">
                   <ImageViewers
                     src={member?.photo || "/placeholder.svg"}
