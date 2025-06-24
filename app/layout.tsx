@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import Script from "next/script"; // ⬅️ ini penting!
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import { ScrollToTopProvider } from "@/components/scroll-to-top-provider";
 import Navbar from "@/components/navbar";
