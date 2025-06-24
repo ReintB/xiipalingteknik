@@ -29,25 +29,25 @@ export default function BackToTop() {
   };
 
   return (
-    <AnimatePresence>
-      {isVisible && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.5 }}
-          transition={{ duration: 0.3 }}
-          className="fixed bottom-6 right-6 z-50"
-        >
-          <Button
-            onClick={scrollToTop}
-            className="rounded-full shadow-lg p-3 bg-primary hover:bg-primary/90 text-primary-foreground"
-            size="lg"
-            aria-label="Back to top"
+    <div className="fixed bottom-6 right-6 flex flex-col items-end gap-3 z-50">
+      <AnimatePresence>
+        {isVisible && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.5 }}
+            transition={{ duration: 0.3 }}
           >
-            <ArrowUp className="h-5 w-5" />
-          </Button>
-        </motion.div>
-      )}
-    </AnimatePresence>
+            <Button
+              onClick={scrollToTop}
+              className="w-14 h-14 rounded-full text-white shadow-lg bg-primary hover:bg-primary/90 transition"
+              aria-label="Back to top"
+            >
+              <ArrowUp className="h-6 w-6" />
+            </Button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
   );
 }
