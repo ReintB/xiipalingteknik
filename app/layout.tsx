@@ -7,8 +7,14 @@ import Footer from "@/components/footer";
 import BackToTop from "@/components/back-to-top";
 import PageTransition from "@/components/page-transition";
 import "./globals.css";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "XIIPALINGTEKNIK",
+  description: "XIIPALINGTEKNIK",
+};
 
 export default function RootLayout({
   children,
