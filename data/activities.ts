@@ -21,7 +21,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/fotbarbali.jpg?height=300&width=500",
+    image: "/webp/bali/fotbarbali.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -31,7 +31,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/baliboys.jpg?height=300&width=500",
+    image: "/webp/bali/baliboys.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -41,7 +41,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/bali1.jpg?height=300&width=500",
+    image: "/webp/bali/bali1.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -51,7 +51,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/baliboys2.jpg?height=300&width=500",
+    image: "/webp/bali/baliboys2.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -61,7 +61,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/baliaceljuruselfie.jpg?height=300&width=500",
+    image: "/webp/bali/foto/baliaceljuruselfie.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -71,7 +71,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/baliceoketos.jpg?height=300&width=500",
+    image: "/webp/bali/foto/baliceoketos.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -81,7 +81,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balidesa.jpg?height=300&width=500",
+    image: "/webp/bali/foto/balidesa.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -91,7 +91,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balijerikhojogjapanas.jpg?height=300&width=500",
+    image: "/webp/bali/foto/balijerikhojogjapanas.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -101,7 +101,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/baligwk22jan24.jpg?height=300&width=500",
+    image: "/webp/bali/foto/baligwk22jan24.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -111,7 +111,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balilayangan.jpg?height=300&width=500",
+    image: "/webp/bali/foto/balilayangan.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -121,7 +121,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balimantap.jpg?height=300&width=500",
+    image: "/webp/bali/foto/balimantap.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -131,7 +131,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balinyarap.jpg?height=300&width=500",
+    image: "/webp/bali/foto/balinyarap.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -141,7 +141,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/baliopungmakan.webp?height=300&width=500",
+    image: "/webp/bali/foto/baliopungmakan.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -151,7 +151,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balipastorbus2.jpg?height=300&width=500",
+    image: "/webp/bali/foto/balipastorbus2.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -161,7 +161,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balipendetabus2.webp?height=300&width=500",
+    image: "/webp/bali/foto/balipendetabus2.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -171,7 +171,7 @@ export const activities = [
     category: "Study Tour",
     description:
       "Mengikuti study tour ke Bali dan Jogja untuk menambah wawasan dan pengetahuan.",
-    image: "/bali/foto/balitheboys.webp?height=300&width=500",
+    image: "/webp/bali/foto/balitheboys.webp?height=300&width=500",
     icon: React.createElement(Tent, { className: "h-5 w-5" }),
   },
   {
@@ -180,7 +180,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/ejaocaunik.JPG?height=300&width=500",
+    image: "/webp/retret/ejaocaunik.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -189,7 +189,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/andreacel.JPG?height=300&width=500",
+    image: "/webp/retret/andreacel.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -198,7 +198,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/mewing.JPG?height=300&width=500",
+    image: "/webp/retret/mewing.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -207,7 +207,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/ebeng.JPG?height=300&width=500",
+    image: "/webp/retret/ebeng.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -216,7 +216,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/ocha.JPG?height=300&width=500",
+    image: "/webp/retret/ocha.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -225,7 +225,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/eger.JPG?height=300&width=500",
+    image: "/webp/retret/eger.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -234,7 +234,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/kushatheo.JPG?height=300&width=500",
+    image: "/webp/retret/kushatheo.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -243,7 +243,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/mantap.JPG?height=300&width=500",
+    image: "/webp/retret/mantap.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -252,7 +252,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/jalan.JPG?height=300&width=500",
+    image: "/webp/retret/jalan.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -261,7 +261,7 @@ export const activities = [
     date: "22-24 Januari 2025",
     category: "Retret",
     description: "Mengikuti retreat untuk memperkuat iman dan spiritualitas.",
-    image: "/retret/janicerevi.JPG?height=300&width=500",
+    image: "/webp/retret/janicerevi.webp?height=300&width=500",
     icon: React.createElement(Church, { className: "h-5 w-5" }),
   },
   {
@@ -270,7 +270,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tiduracel.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tiduracel.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -279,7 +279,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurebeng.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tidurebeng.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -288,7 +288,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurcarlo.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tidurcarlo.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -297,7 +297,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurcath.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tidurcath.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -306,7 +306,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidureger.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tidureger.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -315,7 +315,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurezrav.heic?height=300&width=500",
+    image: "/webp/tidur/foto/tidurezrav.heic?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -324,7 +324,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurivan.heic?height=300&width=500",
+    image: "/webp/tidur/foto/tidurivan.heic?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -333,7 +333,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurkusha.heic?height=300&width=500",
+    image: "/webp/tidur/foto/tidurkusha.heic?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -342,7 +342,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurmocil.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tidurmocil.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -351,7 +351,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurmocilpojok.jpg?height=300&width=500",
+    image: "/webp/tidur/foto/tidurmocilpojok.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -360,7 +360,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurmoge.heic?height=300&width=500",
+    image: "/webp/tidur/foto/tidurmoge.heic?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -369,7 +369,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurmogegalvin.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tidurmogegalvin.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -378,7 +378,7 @@ export const activities = [
     date: "Setiap hari tidur",
     category: "Tidur",
     description: "Tidurrrrrrrrrrrrrrrrrrrrrrrrr",
-    image: "/tidur/foto/tidurrenang.webp?height=300&width=500",
+    image: "/webp/tidur/foto/tidurrenang.webp?height=300&width=500",
     icon: React.createElement(Bed, { className: "h-5 w-5" }),
   },
   {
@@ -388,7 +388,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/agama1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/agama1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -398,7 +398,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/bindo1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/bindo1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -408,7 +408,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/sunda1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/sunda1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -418,7 +418,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/pabas1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/pabas1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -428,7 +428,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/fisika1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/fisika1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -438,7 +438,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/informatika1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/informatika1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -448,7 +448,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/matlan1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/matlan1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -458,7 +458,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/pp1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/pp1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -468,7 +468,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/pjok1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/pjok1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -478,7 +478,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/sejarah1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/sejarah1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -488,7 +488,7 @@ export const activities = [
     category: "KBM Terakhir",
     description:
       "Kegiatan Belajar Mengajar Terakhir Bersama Bapak dan Ibu Guru",
-    image: "/kbmTerakhir/toefl1.jpg?height=300&width=500",
+    image: "/webp/kbmTerakhir/toefl1.webp?height=300&width=500",
     icon: React.createElement(NotebookPen, { className: "h-5 w-5" }),
   },
   {
@@ -497,7 +497,8 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pendidikanKarakter.png?height=300&width=500",
+    image:
+      "/webp/pendidikanKarakter/pendidikanKarakter.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -506,7 +507,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pk1.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pk1.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -515,7 +516,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pk2.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pk2.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -524,7 +525,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pk3.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pk3.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -533,7 +534,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pk4.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pk4.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -542,7 +543,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pk5.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pk5.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -551,7 +552,7 @@ export const activities = [
     date: "05 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkGames.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkGames.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -560,7 +561,7 @@ export const activities = [
     date: "05 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkHadiah.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkHadiah.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -569,7 +570,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkMakan.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkMakan.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -578,7 +579,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkPatrick.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkPatrick.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -587,7 +588,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkPiket.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkPiket.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -596,7 +597,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkPJOK.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkPJOK.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -605,7 +606,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkUpacara.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkUpacara.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -614,7 +615,7 @@ export const activities = [
     date: "05-07 September 2024",
     category: "Pendidikan Karakter",
     description: "Kegiatan Outing Pendidikan Karakter di Pusdikhub TNI AD",
-    image: "/pendidikanKarakter/pkUpacaraBatik.png?height=300&width=500",
+    image: "/webp/pendidikanKarakter/pkUpacaraBatik.webp?height=300&width=500",
     icon: React.createElement(Award, { className: "h-5 w-5" }),
   },
   {
@@ -623,7 +624,7 @@ export const activities = [
     date: "24-25 Oktober 2024",
     category: "Bazar",
     description: "Kegiatan Bazar di Kompetisi Meraih Prestasi 2024",
-    image: "/bazar/bazar1.jpg?height=300&width=500",
+    image: "/webp/bazar/bazar1.webp?height=300&width=500",
     icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
   },
   {
@@ -632,7 +633,7 @@ export const activities = [
     date: "24-25 Oktober 2024",
     category: "Bazar",
     description: "Kegiatan Bazar di Kompetisi Meraih Prestasi 2024",
-    image: "/bazar/bazar2.jpg?height=300&width=500",
+    image: "/webp/bazar/bazar2.webp?height=300&width=500",
     icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
   },
   {
@@ -641,7 +642,7 @@ export const activities = [
     date: "24-25 Oktober 2024",
     category: "Bazar",
     description: "Kegiatan Bazar di Kompetisi Meraih Prestasi 2024",
-    image: "/bazar/bazar3.jpg?height=300&width=500",
+    image: "/webp/bazar/bazar3.webp?height=300&width=500",
     icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
   },
   {
@@ -650,7 +651,7 @@ export const activities = [
     date: "24-25 Oktober 2024",
     category: "Bazar",
     description: "Kegiatan Bazar di Kompetisi Meraih Prestasi 2024",
-    image: "/bazar/bazar4.jpg?height=300&width=500",
+    image: "/webp/bazar/bazar4.webp?height=300&width=500",
     icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
   },
   {
@@ -659,7 +660,7 @@ export const activities = [
     date: "24-25 Oktober 2024",
     category: "Bazar",
     description: "Kegiatan Bazar di Kompetisi Meraih Prestasi 2024",
-    image: "/bazar/bazar5.jpg?height=300&width=500",
+    image: "/webp/bazar/bazar5.webp?height=300&width=500",
     icon: React.createElement(ShoppingBasket, { className: "h-5 w-5" }),
   },
   {
@@ -668,7 +669,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Band",
-    image: "/ekstrakurikuler/band.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/band.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -677,7 +678,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Basket",
-    image: "/ekstrakurikuler/basket.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/basket.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -686,7 +687,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Coding",
-    image: "/ekstrakurikuler/coding.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/coding.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -695,7 +696,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Cooking Class",
-    image: "/ekstrakurikuler/cooking_class.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/cooking_class.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -704,7 +705,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Dance",
-    image: "/ekstrakurikuler/dance.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/dance.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -713,7 +714,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Esport",
-    image: "/ekstrakurikuler/esport.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/esport.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -722,7 +723,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Futsal",
-    image: "/ekstrakurikuler/futsal.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/futsal.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -730,7 +731,7 @@ export const activities = [
     title: "Klub Kimia",
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
-    image: "/ekstrakurikuler/klub_kimia.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/klub_kimia.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -739,7 +740,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Paduan Suara",
-    image: "/ekstrakurikuler/paduan_suara.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/paduan_suara.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -748,7 +749,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Production House",
-    image: "/ekstrakurikuler/production_house.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/production_house.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -757,7 +758,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Student Company",
-    image: "/ekstrakurikuler/student_company.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/student_company.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -766,7 +767,7 @@ export const activities = [
     date: "04 Maret 2025",
     category: "Ekstrakurikuler",
     description: "Ekstrakurikuler Taekwondo",
-    image: "/ekstrakurikuler/taekwondo.jpg?height=300&width=500",
+    image: "/webp/ekstrakurikuler/taekwondo.webp?height=300&width=500",
     icon: React.createElement(Star, { className: "h-5 w-5" }),
   },
   {
@@ -776,7 +777,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu1.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu1.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -786,7 +787,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/kelas.jpg?height=300&width=500",
+    image: "/webp/jonas/kelas.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -796,7 +797,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu2.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu2.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -806,7 +807,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu4.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu4.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -816,7 +817,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu5.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu5.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -826,7 +827,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu6.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu6.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -836,7 +837,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu7.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu7.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -846,7 +847,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu8.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu8.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -856,7 +857,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu9.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu9.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -866,7 +867,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu10.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu10.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -876,7 +877,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu11.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu11.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -886,7 +887,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu12.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu12.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -896,7 +897,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu13.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu13.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -906,7 +907,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu14.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu14.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -916,7 +917,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu15.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu15.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -926,7 +927,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu16.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu16.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -936,7 +937,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu17.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu17.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -946,7 +947,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu18.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu18.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -956,7 +957,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu19.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu19.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -966,7 +967,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu20.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu20.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -976,7 +977,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu21.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu21.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -986,7 +987,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu22.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu22.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -996,7 +997,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu23.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu23.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1006,7 +1007,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu24.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu24.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1016,7 +1017,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu25.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu25.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1026,7 +1027,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu26.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu26.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1036,7 +1037,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu27.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu27.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1046,7 +1047,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu28.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu28.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1056,7 +1057,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu29.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu29.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1066,7 +1067,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu30.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu30.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1076,7 +1077,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu31.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu31.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1086,7 +1087,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu32.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu32.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1096,7 +1097,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu33.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu33.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1106,7 +1107,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu34.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu34.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1116,7 +1117,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu35.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu35.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1126,7 +1127,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu36.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu36.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1136,7 +1137,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu37.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu37.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1146,7 +1147,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu38.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu38.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1156,7 +1157,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu39.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu39.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1166,7 +1167,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu40.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu40.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1176,7 +1177,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu41.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu41.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1186,7 +1187,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/graduation/gradu42.jpg?height=300&width=500",
+    image: "/webp/graduation/gradu42.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1196,7 +1197,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/justine.jpg?height=300&width=500",
+    image: "/webp/jonas/justine.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1206,7 +1207,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/andreas.jpg?height=300&width=500",
+    image: "/webp/jonas/andreas.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1216,7 +1217,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/theo.jpg?height=300&width=500",
+    image: "/webp/jonas/theo.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1226,7 +1227,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/carlo.jpg?height=300&width=500",
+    image: "/webp/jonas/carlo.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1236,7 +1237,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/catherina.jpg?height=300&width=500",
+    image: "/webp/jonas/catherina.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1246,7 +1247,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/kusha.jpg?height=300&width=500",
+    image: "/webp/jonas/kusha.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1256,7 +1257,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/eger.jpg?height=300&width=500",
+    image: "/webp/jonas/eger.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1266,7 +1267,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/eunike.jpg?height=300&width=500",
+    image: "/webp/jonas/eunike.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1276,7 +1277,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/ezraf.jpg?height=300&width=500",
+    image: "/webp/jonas/ezraf.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1286,7 +1287,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/ezrav.jpg?height=300&width=500",
+    image: "/webp/jonas/ezrav.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1296,7 +1297,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/flavio.jpg?height=300&width=500",
+    image: "/webp/jonas/flavio.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1306,7 +1307,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/geosefin.jpg?height=300&width=500",
+    image: "/webp/jonas/geosefin.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1316,7 +1317,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/vino.jpg?height=300&width=500",
+    image: "/webp/jonas/vino.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1326,7 +1327,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/ivan.jpg?height=300&width=500",
+    image: "/webp/jonas/ivan.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1336,7 +1337,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/jerikho.jpg?height=300&width=500",
+    image: "/webp/jonas/jerikho.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1346,7 +1347,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/khresna.jpg?height=300&width=500",
+    image: "/webp/jonas/khresna.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1356,7 +1357,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/marcell.jpg?height=300&width=500",
+    image: "/webp/jonas/marcell.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1366,7 +1367,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/mazel.jpg?height=300&width=500",
+    image: "/webp/jonas/mazel.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1376,7 +1377,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/mosesh.jpg?height=300&width=500",
+    image: "/webp/jonas/mosesh.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1386,7 +1387,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/mosesp.jpg?height=300&width=500",
+    image: "/webp/jonas/mosesp.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1396,7 +1397,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/deo.jpg?height=300&width=500",
+    image: "/webp/jonas/deo.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1406,7 +1407,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/ebeng.jpg?height=300&width=500",
+    image: "/webp/jonas/ebeng.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1416,7 +1417,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/revi.jpg?height=300&width=500",
+    image: "/webp/jonas/revi.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1426,7 +1427,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/rhyu.jpg?height=300&width=500",
+    image: "/webp/jonas/rhyu.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1436,7 +1437,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/ocha.jpg?height=300&width=500",
+    image: "/webp/jonas/ocha.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1446,7 +1447,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/rahel.jpg?height=300&width=500",
+    image: "/webp/jonas/rahel.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1456,7 +1457,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/ari.jpg?height=300&width=500",
+    image: "/webp/jonas/ari.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1466,7 +1467,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/galvin.jpg?height=300&width=500",
+    image: "/webp/jonas/galvin.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1476,7 +1477,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/varrel.jpg?height=300&width=500",
+    image: "/webp/jonas/varrel.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1486,7 +1487,7 @@ export const activities = [
     category: "Graduation",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/jonas/yahu.jpg?height=300&width=500",
+    image: "/webp/jonas/yahu.webp?height=300&width=500",
     icon: React.createElement(GraduationCap, { className: "h-5 w-5" }),
   },
   {
@@ -1496,7 +1497,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/begadang.jpg?height=300&width=500",
+    image: "/webp/villa/foto/begadang.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1506,7 +1507,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/biliard.jpg?height=300&width=500",
+    image: "/webp/villa/foto/biliard.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1516,7 +1517,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/breakfastinpool.jpg?height=300&width=500",
+    image: "/webp/villa/foto/breakfastinpool.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1526,7 +1527,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/fifa.jpg?height=300&width=500",
+    image: "/webp/villa/foto/fifa.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1536,7 +1537,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/kolasevilla.jpg?height=300&width=500",
+    image: "/webp/villa/foto/kolasevilla.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1546,7 +1547,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/peekay.jpg?height=300&width=500",
+    image: "/webp/villa/foto/peekay.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1556,7 +1557,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/videojadul.jpg?height=300&width=500",
+    image: "/webp/villa/foto/videojadul.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1566,7 +1567,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/werewolf.jpg?height=300&width=500",
+    image: "/webp/villa/foto/werewolf.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1576,7 +1577,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/ari.jpg?height=300&width=500",
+    image: "/webp/villa/foto/ari.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1586,7 +1587,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/arimasak.jpg?height=300&width=500",
+    image: "/webp/villa/foto/arimasak.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1596,7 +1597,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/bakar.jpg?height=300&width=500",
+    image: "/webp/villa/foto/bakar.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1606,7 +1607,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/bakaran.jpg?height=300&width=500",
+    image: "/webp/villa/foto/bakaran.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1616,7 +1617,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/ebeng.jpg?height=300&width=500",
+    image: "/webp/villa/foto/ebeng.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1626,7 +1627,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/geo.jpg?height=300&width=500",
+    image: "/webp/villa/foto/geo.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1636,7 +1637,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/malam.jpg?height=300&width=500",
+    image: "/webp/villa/foto/malam.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1646,7 +1647,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/mantap.jpg?height=300&width=500",
+    image: "/webp/villa/foto/mantap.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1656,7 +1657,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/pemandangan.jpg?height=300&width=500",
+    image: "/webp/villa/foto/pemandangan.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1666,7 +1667,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/pino.jpg?height=300&width=500",
+    image: "/webp/villa/foto/pino.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1676,7 +1677,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/smoki.jpg?height=300&width=500",
+    image: "/webp/villa/foto/smoki.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1686,7 +1687,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/bakarbakar.jpg?height=300&width=500",
+    image: "/webp/villa/foto/bakarbakar.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1696,7 +1697,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/berenang.jpg?height=300&width=500",
+    image: "/webp/villa/foto/berenang.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1706,7 +1707,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/boys.jpg?height=300&width=500",
+    image: "/webp/villa/foto/boys.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1716,7 +1717,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/fotbar1.jpg?height=300&width=500",
+    image: "/webp/villa/foto/fotbar1.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1726,7 +1727,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/fotbar2.jpg?height=300&width=500",
+    image: "/webp/villa/foto/fotbar2.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1736,7 +1737,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/fotbar3.jpg?height=300&width=500",
+    image: "/webp/villa/foto/fotbar3.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1746,7 +1747,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/indomie.jpg?height=300&width=500",
+    image: "/webp/villa/foto/indomie.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1756,7 +1757,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/kartu.jpg?height=300&width=500",
+    image: "/webp/villa/foto/kartu.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1766,7 +1767,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/kolam.jpg?height=300&width=500",
+    image: "/webp/villa/foto/kolam.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1776,7 +1777,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/kusha.jpg?height=300&width=500",
+    image: "/webp/villa/foto/kusha.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1786,7 +1787,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/ps.jpg?height=300&width=500",
+    image: "/webp/villa/foto/ps.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1796,7 +1797,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/tragediari.jpg?height=300&width=500",
+    image: "/webp/villa/foto/tragediari.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1806,7 +1807,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/unostacko.jpg?height=300&width=500",
+    image: "/webp/villa/foto/unostacko.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1816,7 +1817,7 @@ export const activities = [
     category: "Villa",
     description:
       "Momen penuh kebahagiaan dan harapan, saat kita menutup bab lama dan membuka jalan baru.",
-    image: "/villa/foto/voliair.jpg?height=300&width=500",
+    image: "/webp/villa/foto/voliair.webp?height=300&width=500",
     icon: React.createElement(House, { className: "h-5 w-5" }),
   },
   {
@@ -1825,7 +1826,7 @@ export const activities = [
     date: "25 Februari 2025",
     category: "Touring",
     description: "Touring",
-    image: "/touring/touring1.jpg?height=300&width=500",
+    image: "/webp/touring/touring1.webp?height=300&width=500",
     icon: React.createElement(Map, { className: "h-5 w-5" }),
   },
 ];
