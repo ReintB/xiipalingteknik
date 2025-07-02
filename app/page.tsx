@@ -10,6 +10,7 @@ import TimelinePreview from "@/components/timeline-preview";
 import PengurusPreview from "@/components/pengurus-preview";
 import HeroVideo from "@/components/hero-video";
 import { useState } from "react";
+import GiscusComments from "@/components/giscus-comments";
 
 export default function Home() {
   return (

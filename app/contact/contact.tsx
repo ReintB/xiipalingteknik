@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import { contactInfo, socialMedia } from "@/data/contact";
+import GiscusComments from "@/components/giscus-comments";
 
 export default function ContactPage() {
   const [form, setForm] = useState({
@@ -173,6 +174,7 @@ export default function ContactPage() {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
+            <GiscusComments />
           </div>
         </div>
       </div>
