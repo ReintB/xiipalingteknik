@@ -13,6 +13,7 @@ import { Search, Users } from "lucide-react";
 import { useState, useEffect } from "react";
 import { students } from "@/data/siswa";
 import { ImageViewers } from "@/components/image-viewers";
+import GiscusComments from "@/components/giscus-comments";
 
 export default function SiswaPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -126,6 +127,7 @@ export default function SiswaPage() {
           ))}
         </div>
       )}
+      <GiscusComments />
     </div>
   );
 }

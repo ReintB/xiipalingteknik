@@ -1,7 +1,8 @@
+"use client";
 import Giscus from "@giscus/react";
 import { useEffect, useState } from "react";
 
-export default function GiscusComments() {
+export default function GiscusComments({ className = "" }) {
   // Deteksi dark mode dari class html
   const [theme, setTheme] = useState("light");
 
@@ -22,7 +23,7 @@ export default function GiscusComments() {
 
   return (
     <section
-      className="max-w-4xl mx-auto my-8 px-4 py-4 bg-background border rounded-lg shadow transition-colors duration-300"
+      className={`my-12 px-4 py-8 bg-background border rounded-lg shadow transition-colors duration-300 ${className}`}
     >
       <Giscus
         id="comments"

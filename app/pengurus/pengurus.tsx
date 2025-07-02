@@ -12,6 +12,7 @@ import { Users } from "lucide-react";
 import { classXI, classXII } from "@/data/pengurus";
 import { ImageViewers } from "@/components/image-viewers";
 import MotionWrapper from "@/components/motion-wrapper";
+import GiscusComments from "@/components/giscus-comments";
 
 export default function PengurusPage() {
   interface Member {
@@ -307,6 +308,7 @@ export default function PengurusPage() {
           </div>
         </TabsContent>
       </Tabs>
+      <GiscusComments className="max-w-6xl mx-auto" />
     </div>
   );
 }

@@ -196,7 +196,7 @@ export default function () {
           </div>
         </TabsContent>
       </Tabs>
-      <GiscusComments />
+      <GiscusComments className="max-w-4xl mx-auto" />
     </div>
   );
 }

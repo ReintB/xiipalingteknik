@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CalendarDays, GraduationCap } from "lucide-react";
 import { events } from "@/data/timeline";
+import GiscusComments from "@/components/giscus-comments";
 
 export default function TimelinePage() {
   return (
@@ -61,11 +62,12 @@ export default function TimelinePage() {
           </div>
         </div>
         <div>
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h1 className="text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Selesai.
           </h1>
         </div>
       </div>
+      <GiscusComments className="max-w-3xl mx-auto" />
     </div>
   );
 }

@@ -11,6 +11,7 @@ import { Calendar } from "lucide-react";
 import { useState } from "react";
 import { activities } from "@/data/activities";
 import { ImageViewer } from "@/components/image-viewer";
+import GiscusComments from "@/components/giscus-comments";
 
 export default function ActivitiesPage() {
   const categories = [
@@ -93,6 +94,7 @@ export default function ActivitiesPage() {
           ))}
         </div>
       )}
+      <GiscusComments />
     </div>
   );
 }

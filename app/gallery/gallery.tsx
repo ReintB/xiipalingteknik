@@ -5,6 +5,7 @@ import { ImageIcon, Film, ImageIcon as ImageLucide } from "lucide-react";
 import { photos, videos } from "@/data/gallery";
 import { ImageViewer } from "@/components/image-viewer";
 import { useRef, useEffect } from "react";
+import GiscusComments from "@/components/giscus-comments";
 
 export default function GalleryPage() {
   // Create a ref to store all video elements
@@ -96,6 +97,7 @@ export default function GalleryPage() {
           </div>
         </TabsContent>
       </Tabs>
+      <GiscusComments />
     </div>
   );
 }
