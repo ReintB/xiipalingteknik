@@ -1,22 +1,31 @@
 import nodemailer from "nodemailer";
 
+const json = (body, status) => new Response(JSON.stringify(body), { status });
+
 export async function POST(req) {
   try {
-    const { name, email, subject, message } = await req.json();
+    const { name, email, subject, message, website } = await req.json();
 
-    if (!name || !email || !subject || !message) {
-      return new Response(JSON.stringify({ error: "Semua field harus diisi!" }), { status: 400 });
+    // Honeypot: field "website" tersembunyi dari manusia, jadi hanya bot yang mengisinya.
+    // Balas sukses palsu supaya bot tidak mencoba lagi.
+    if (website) {
+      return json({ message: "Email berhasil dikirim!" }, 200);
     }
 
-    console.log("Data yang diterima:", { name, email, subject, message });
-    console.log("SMTP Config:", {
-      server: process.env.EMAIL_SERVER,
-      port: process.env.EMAIL_PORT,
-      user: process.env.EMAIL_USER,
-    });
+    if (![name, email, subject, message].every((v) => typeof v === "string" && v.trim())) {
+      return json({ error: "Semua field harus diisi!" }, 400);
+    }
+
+    if (!/^[^\s@,]+@[^\s@,]+\.[^\s@,]+$/.test(email)) {
+      return json({ error: "Format email tidak valid!" }, 400);
+    }
+
+    if (name.length > 100 || email.length > 200 || subject.length > 200 || message.length > 5000) {
+      return json({ error: "Isian terlalu panjang!" }, 400);
+    }
 
     if (!process.env.EMAIL_SERVER || !process.env.EMAIL_PORT || !process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
-      return new Response(JSON.stringify({ error: "Konfigurasi email tidak lengkap!" }), { status: 500 });
+      return json({ error: "Konfigurasi email tidak lengkap!" }, 500);
     }
 
     const transporter = nodemailer.createTransport({
@@ -29,21 +38,17 @@ export async function POST(req) {
       },
     });
 
-    const mailOptions = {
+    await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: "xiipalingtekniks@gmail.com",
       replyTo: email,
-      subject: `Pesan dari ${name}: ${subject}`,
+      subject: `Pesan dari ${name}: ${subject}`.replace(/[\r\n]+/g, " "),
       text: `Nama: ${name}\nEmail: ${email}\nPesan: ${message}`,
-    };
+    });
 
-    console.log("Mengirim email...");
-    await transporter.sendMail(mailOptions);
-    console.log("Email berhasil dikirim!");
-
-    return new Response(JSON.stringify({ message: "Email berhasil dikirim!" }), { status: 200 });
+    return json({ message: "Email berhasil dikirim!" }, 200);
   } catch (error) {
     console.error("Error mengirim email:", error);
-    return new Response(JSON.stringify({ error: "Gagal mengirim email!" }), { status: 500 });
+    return json({ error: "Gagal mengirim email!" }, 500);
   }
 }

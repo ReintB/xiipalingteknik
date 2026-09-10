@@ -14,6 +14,7 @@ export default function ContactPage() {
     email: "",
     subject: "",
     message: "",
+    website: "",
   });
   const [loading, setLoading] = useState(false);
   const [responseMessage, setResponseMessage] = useState("");
@@ -39,7 +40,7 @@ export default function ContactPage() {
       const data = await res.json();
       if (res.ok) {
         setResponseMessage("Email berhasil dikirim!");
-        setForm({ name: "", email: "", subject: "", message: "" });
+        setForm({ name: "", email: "", subject: "", message: "", website: "" });
       } else {
         setResponseMessage(data.error || "Gagal mengirim email!");
       }
@@ -66,6 +67,16 @@ export default function ContactPage() {
 
       <div className="max-w-3xl mx-auto">
         <form onSubmit={handleSubmit} className="space-y-4">
+          {/* Honeypot anti-spam: tersembunyi dari pengunjung, biasanya diisi bot */}
+          <div aria-hidden="true" className="absolute -left-[9999px]">
+            <input
+              name="website"
+              tabIndex={-1}
+              autoComplete="off"
+              value={form.website}
+              onChange={handleChange}
+            />
+          </div>
           <Input
             name="name"
             value={form.name}
