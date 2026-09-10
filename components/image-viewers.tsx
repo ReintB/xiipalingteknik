@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 
 interface ImageViewersProps {
   src: string;
@@ -25,8 +25,9 @@ export function ImageViewers({
 
   return (
     <>
-      <div
-        className={`cursor-pointer ${className}`}
+      <button
+        type="button"
+        className={`block w-full cursor-pointer ${className}`}
         onClick={() => setIsOpen(true)}
         {...props}
       >
@@ -37,10 +38,14 @@ export function ImageViewers({
           height={400}
           className="object-cover w-full h-full object-top"
         />
-      </div>
+      </button>
 
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
-        <DialogContent className="max-w-3xl p-0 overflow-hidden bg-transparent border-none">
+        <DialogContent
+          className="max-w-3xl p-0 overflow-hidden bg-transparent border-none"
+          aria-describedby={undefined}
+        >
+          <DialogTitle className="sr-only">{alt}</DialogTitle>
           <div className="relative w-full max-h-[80vh] flex items-center justify-center">
             <Image
               src={src || "/placeholder.svg"}
