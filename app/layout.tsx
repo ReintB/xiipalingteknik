@@ -11,9 +11,21 @@ import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const description =
+  "Website kenang-kenangan kelas XIIPALINGTEKNIK (XI-4 & XII-4): foto, video, kegiatan, dan cerita kami selama SMA.";
+
+// og:image & favicon diambil otomatis dari app/opengraph-image.jpg dan app/icon.png
 export const metadata: Metadata = {
   title: "XIIPALINGTEKNIK",
-  description: "XIIPALINGTEKNIK",
+  description,
+  openGraph: {
+    title: "XIIPALINGTEKNIK",
+    description,
+    siteName: "XIIPALINGTEKNIK",
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({
