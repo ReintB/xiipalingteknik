@@ -1,16 +1,7 @@
 "use client";
 
 import { usePathname, useSearchParams } from "next/navigation";
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-  type ReactNode,
-  Suspense,
-} from "react";
-
-const ScrollToTopContext = createContext(null);
+import { useEffect, useState, type ReactNode, Suspense } from "react";
 
 function ScrollToTopInner() {
   const pathname = usePathname();
@@ -31,21 +22,11 @@ function ScrollToTopInner() {
 
 export function ScrollToTopProvider({ children }: { children: ReactNode }) {
   return (
-    <ScrollToTopContext.Provider value={null}>
+    <>
       <Suspense fallback={null}>
         <ScrollToTopInner />
       </Suspense>
       {children}
-    </ScrollToTopContext.Provider>
+    </>
   );
-}
-
-export function useScrollToTop() {
-  const context = useContext(ScrollToTopContext);
-
-  if (context === undefined) {
-    throw new Error("useScrollToTop must be used within a ScrollToTopProvider");
-  }
-
-  return context;
 }
