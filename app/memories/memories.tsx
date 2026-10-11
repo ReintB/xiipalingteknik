@@ -10,7 +10,6 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
-import GiscusComments from "@/components/giscus-comments";
 
 export default function () {
   const studentMemories = [
@@ -196,7 +195,6 @@ export default function () {
           </div>
         </TabsContent>
       </Tabs>
-      <GiscusComments className="max-w-4xl mx-auto" />
     </div>
   );
 }

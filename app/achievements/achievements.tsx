@@ -9,7 +9,6 @@ import { Tabs, TabsContent } from "@/components/ui/tabs";
 import { Trophy } from "lucide-react";
 import { allAchievements } from "@/data/achievements";
 import { ImageViewer } from "@/components/image-viewer";
-import GiscusComments from "@/components/giscus-comments";
 
 export default function AchievementsPage() {
   return (
@@ -60,7 +59,6 @@ export default function AchievementsPage() {
           </div>
         </TabsContent>
       </Tabs>
-      <GiscusComments />
     </div>
   );
 }
